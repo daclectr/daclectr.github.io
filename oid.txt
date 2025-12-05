@@ -1,0 +1,241 @@
+[R74n OID Registration Authority Guidelines]
+
+This document contains the process for registering Object Identifiers (OIDs), as well as a list of existing OIDs, under the R74n OID arc.
+
+Dot Notation:
+    1.3.6.1.4.1.61117
+
+ASN.1 Notation:
+    {iso(1) identified-organization(3) dod(6) internet(1) private(4) enterprise(1) 61117}
+
+OID-IRI Notation:
+    /ISO/Identified-Organization/6/1/4/1/61117
+
+WEID Notation:
+    weid:pen:1B5P-1
+
+DER Encoding: 06:08:2B:06:01:04:01:83:DD:3D
+
+R74n Standard Alpha Namespace:
+    oid (Multiletter)
+    oi (Two-letter)
+
+Multiplane: R001F4 (#500)
+
+URN:
+    urn:oid:1.3.6.1.4.1.61117
+
+Creation Date: 2023-11-01
+
+For the remainder of this document, "61117" will be used as a shorthand for the whole node.
+
+
+
+========================================
+1 - Registration
+
+OIDs under the 61117 arc require explicit permission from R74n or to be listed in this document, under secton 4 - R74n OID Repository.
+
+OIDs under 61117.9000 can be requested for free by contacting R74n, either by email (contact@R74n.com) or another way.
+
+Additionally, a person or organization may freely allocate children of their R74n Wikibase item’s QID under 61117.3, if it exists.
+
+A helpful guide to registration can be found here: https://R74n.com/id/oid
+
+
+
+========================================
+2 - Main OID Arcs
+
+The following are the direct children of the root node.
+
+ARC         -   PURPOSE
+
+61117.1     -   Multiplane, to identify R74n projects and concepts
+61117.2     -   General R74n Needs
+61117.3     -   R74n Wikibase, for compatibility
+61117.4     -   Ontomata, for compatibility
+61117.5     -   Notation
+61117.6     -   Third-party database compatibility
+61117.8     -   Scriptoid
+61117.9     -   Multiplane Unions
+61117.10    -   Multiplane Ranges
+61117.11    -   R74n Wikibase property
+61117.12    -   R74n Wikibase lexeme
+61117.13    -   R74n Wikibase entity schema
+61117.100   -   Confidential, subrepository hidden for privacy
+61117.9000  -   Requested, see section 1
+61117.9998  -   Experimental, for testing only
+61117.9999  -   Example, for explanation only
+
+
+Concepts may be represented by multiple OIDs in different arcs. Canonical OIDs are determined based on this priority chain, with the most important being first. For example, if a concept is represented in 61117.1 and 61117.3, the one under 61117.1 is the canonical OID for that concept.
+
+OID Priority Chain: 61117.1 > 61117.9000 > 61117.3 > 61117.4 > 61117.9998
+
+
+
+2.1 - ASN.1 Named Identifiers
+
+Named identifiers for ASN.1 notation, based on R74n Standard Alpha Namespaces:
+
+multiplane(1) / mp(1)
+x-general(2)
+wikibase(3) / wb(3)
+ontomata(4) / om(4)
+x-notation(5)
+x-external(6)
+x-scriptoid(8)
+x-union(9)
+x-range(10)
+x-property(11)
+x-lexeme(12)
+x-entityschema(13)
+x-private(100)
+x-requested(9000)
+experiment(9998)
+example(9999)
+
+
+
+========================================
+3 - Inherent OIDs
+
+The following OID arcs contain inherently valid children which are based off existing databases or standards.
+
+ARC.<child>                          -   PURPOSE
+
+61117.1.<decimal planecode>          -   Multiplane
+61117.3.<QID>                        -   R74n Wikibase
+61117.4.<class ID>                   -   Ontomata
+61117.5.2.0.<whole>                  -   Negative Numerical Value (e.g. -7)
+61117.5.2.0.<whole>.<decimals>       -   Negative Numerical Value (e.g. -7.4)
+61117.5.2.1.<whole>                  -   Positive Numerical Value (e.g. 7)
+61117.5.2.1.<whole>.<decimals>       -   Positive Numerical Value (e.g. 7.4)
+61117.5.10.<decimal>                 -   Unicode Character (e.g. 182 == ¶)
+61117.5.10.<decimal>.<decimal>...    -   String (e.g. 82.55.52.110 == R74n)
+61117.5.11.<decimal>                 -   Color Code (e.g. 65535 == #00ffff)
+61117.5.12.0.<yr>                    -   Gregorian Year BC
+61117.5.12.0.<yr>.<mo>               -   Gregorian Year+Month BC
+61117.5.12.0.<yr>.<mo>.<d>           -   Gregorian Year+Month+Day BC
+61117.5.12.1.<yr>                    -   Gregorian Year AD (e.g. 2017)
+61117.5.12.1.<yr>.<mo>               -   Gregorian Year+Month AD (e.g. 2017.5)
+61117.5.12.1.<yr>.<mo>.<d>           -   Gregorian Year+Month+Day AD (e.g. 2017.5.2)
+61117.5.13.<hr>                      -   Hour in 24HR format (e.g. 13)
+61117.5.13.<hr>.<m>                  -   Hour+Minute in 24HR format (e.g. 13.37)
+61117.5.13.<hr>.<m>.<s>              -   Hour+Minute+Second in 24HR format (e.g. 13.37.42)
+61117.5.13.<hr>.<m>.<s>.<ms>         -   Time+Milliseconds
+61117.5.14.<decimal>.<decimal>...    -   Version Number (e.g. 1.8.6)
+61117.5.15.<octets>...               -   IPv4 Address {CvM1} (e.g. 185.199.108.153)
+61117.5.16.<octets>...               -   IPv6 Address {CvM4} (e.g. 8193.6904.18688.40978.2.0.0.4919 == 2001:1af8:4900:a012:2::1337)
+61117.5.20.<decimal>                 -   Integer representation of ONLY R74n Namespace UUIDv5s [https://R74n.com/id/uuid]
+61117.6.1.<QID>                      -   Wikidata item [https://www.wikidata.org/wiki/Q$1]
+61117.6.2.<PID>                      -   Wikidata property [https://www.wikidata.org/wiki/Property:P$1]
+61117.6.3.<LID>                      -   Wikidata lexeme [https://www.wikidata.org/wiki/Lexeme:L$1]
+61117.6.4.<num>                      -   Periodic Table element (e.g. 2 == Helium)
+61117.6.5.<id>                       -   Discord numeric user ID
+61117.6.6.<id>                       -   Twitter numeric user ID
+61117.6.7.<id>                       -   FoodData Central food [https://fdc.nal.usda.gov/fdc-app.html#/food-details/$1]
+61117.6.7.<id>.<id>...               -   Food recipe
+61117.9.<planecode>.<planecode>...   -   Multiplane Union (e.g. 35.40.36)
+61117.10.<min>.<max>                 -   Multiplane Range (e.g. 256.767)
+61117.11.<PID>                       -   R74n Wikibase property [https://data.R74n.com/wiki/Property:P$1]
+61117.12.<LID>                       -   R74n Wikibase lexeme [https://data.R74n.com/wiki/Lexeme:L$1]
+61117.13.<EID>                       -   R74n Wikibase entity schema [https://data.r74n.com/wiki/EntitySchema:E$1]
+
+For example, 61117.1.273 is automatically allocated to Sandboxels, R00111 (#273) in the Multiplane.
+
+Note for external repository managers: These inherent OIDs do NOT need to be listed in the repository, as they are automatically valid. However, any may be listed for convenience.
+
+
+
+3.1 - Conversions
+
+The following standard conversion methods are sometimes used to convert identifiers into decimal form.
+
+CvM0:   Keep as is, for decimal values (Default)
+         1234 == 1234
+CvM1:   Keep each section as is as separate children, for decimal values
+         123:456:789 == 123.456.789
+CvM2:   Convert complete hexadecimal string to decimal
+         123de == 74718
+CvM3:   Position individual hexadecimal sections together and convert to a single decimal
+         123:abc:456:def == 20043476069871
+CvM4:   Convert individual hexadecimal sections to separate decimal children
+         123:abc:456:def == 291.2748.1110.3567
+CvM5:   Position each ASCII character decimal value together
+         test == 116101115116
+CvM6:   Convert each ASCII character to separate decimal children
+         test == 116.101.115.116
+
+
+
+========================================
+4 - R74n OID Repository
+
+The following list contains OIDs with definitions, as opposed to being inherent. Definitions here take priority over any inherent ones.
+
+61117.1             -   Multiplane, to identify R74n projects and concepts
+61117.1.273         -   Sandboxels
+61117.1.500         -   R74n OID Registration Authority
+61117.2             -   General R74n Needs
+61117.3             -   R74n Wikibase, for compatibility
+61117.4             -   Ontomata, for compatibility
+61117.5             -   Notation
+61117.5.0           -   Null
+61117.5.1           -   Boolean
+61117.5.1.0         -   False (Boolean)
+61117.5.1.1         -   True (Boolean)
+61117.5.1.2         -   Maybe (Boolean)
+61117.5.2           -   Numerical Value
+61117.5.2.0         -   Negative Numerical Value
+61117.5.2.1         -   Positive Numerical Value
+61117.5.10          -   Unicode Character
+61117.5.11          -   Color Code
+61117.5.11.65535    -   R74n Cyan (#00ffff)
+61117.5.12          -   Gregorian Dates
+61117.5.12.0        -   Gregorian BC
+61117.5.12.1        -   Gregorian AD
+61117.5.13          -   Time of Day
+61117.5.14          -   Version Number
+61117.5.15          -   IPv4 Address
+61117.5.16          -   IPv6 Address
+61117.5.20          -   UUIDv5 in the Official R74n Namespace
+61117.5.20.268538275572115285380101426435393060980  -  Official R74n Namespace UUIDv5 [https://R74n.com/uuid.txt]
+61117.6             -   Third-party database compatibility
+61117.6.1           -   Wikidata item
+61117.6.2           -   Wikidata property
+61117.6.3           -   Wikidata lexeme
+61117.6.4           -   Periodic Table element
+61117.6.5           -   Discord user
+61117.6.6           -   Twitter user
+61117.6.7           -   Food recipe
+61117.6.7           -   FoodData Central food
+61117.6.7.51154100.2341260.51154100  -  Plain hamburger
+61117.8             -   Scriptoid
+61117.9             -   Multiplane Unions
+61117.10            -   Multiplane Ranges
+61117.11            -   R74n Wikibase property
+61117.12            -   R74n Wikibase lexeme
+61117.13            -   R74n Wikibase entity schema
+61117.100           -   Confidential, subrepository hidden for privacy
+61117.9000          -   Requested, see section 1
+61117.9000.1        -   infernostars [https://www.infernity.dev/oid-schema.txt]
+61117.9000.2        -   alice [https://hosted.oidplus.com/r74n/?goto=oid%3A1.3.6.1.4.1.61117.9000.2]
+61117.9000.3        -   ggod
+61117.9000.5        -   meese/jayd
+61117.9000.6        -   Wikibee
+61117.9000.7        -   Test Individual
+61117.9000.8        -   Test Organization
+61117.9000.9        -   Serioustar
+61117.9000.10       -   Doc
+61117.9000.11       -   steyero
+61117.9000.12       -   Sandboxels Standardized Design Authority
+61117.9000.13       -   Post::Text
+61117.9000.14       -   Solar Smash
+61117.9000.15       -   R74n Adoption Agency
+61117.9000.16       -   RUBYinc
+61117.9000.17       -   adacey
+61117.9000.123      -   Requested Example
+61117.9998          -   Experimental, for testing only
+61117.9999          -   Example, for explanation only

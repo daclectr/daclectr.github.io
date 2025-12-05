@@ -1,0 +1,106 @@
+Miscellaneous things that aren't in other changelogs.
+
+2025-11-28 - Custom helper support for Text Viewer Parser - Standalone
+2025-11-20 - Created robots.txt to link to Sitemap
+2025-11-16 - Added Omada button to outlinks
+2025-11-12 - Major Unit Converter update
+2025-11-12 - Added Unit Converter Changelog and Icons Sitemap to Sitemap
+2025-11-06 - Updated Socials page
+2025-11-06 - Updated R74n Commons
+2025-11-06 - Updated Link Dump
+2025-11-04 - GenTown released: Updated homepage, UFBS page, Lore page, Rue commands, Sitemap, Schemas, 404 page
+2025-11-04 - Reordered UFBS page links to match the homepage
+2025-11-04 - Linked schemas with <link/> for R74n (homepage) and Infinite Chef
+2025-10-24 - Removed temporary demographics question to Unit Converter
+2025-10-23 - Added temporary demographics question to Unit Converter
+2025-10-23 - Added external embed warning to Infinite Chef
+2025-10-14 - Added color-changing Discord R74n logo GIF to Icons page
+2025-10-09 - Updated Identifier space to properly include GenTown
+2025-10-07 - Added ?newsflash=no URL parameter to homepage
+2025-10-02 - Inverted some images in Translation Hub
+2025-10-02 - Corrected some link categories in Link Dump
+2025-09-25 - Created /blank
+2025-09-25 - Added more 404 redirects
+2025-09-25 - Created community.txt
+2025-09-25 - Updated Wplace Gallery
+2025-09-24 - Created Wplace Gallery in Community Projects
+2025-09-24 - Added missing Sandboxels 3rd Birthday link to Community Projects
+2025-09-23 - Removed Fragrantica from socials due to unwarranted political messages
+2025-09-18 - Updated Icons page
+2025-09-17 - Updated broken button on Outlinks page
+2025-09-17 - Updated Music page
+2025-09-17 - Updated R74n Commons
+2025-09-17 - Added Bluesky and Threads to Share Buttons
+2025-09-17 - Updated News Flash Archive
+2025-09-17 - Added "See Also" changelog links to sitelog.txt
+2025-09-17 - Updated Copy Paste Dump season on main page
+2025-09-17 - Updated Socials page
+2025-09-17 - Updated Identifiers page and fixed LOC typo
+2025-09-17 - Updated Link Dump
+2025-09-17 - Updated Translation Hub
+2025-09-16 - Added Bitsy to Icons page
+2025-09-16 - Added Comic Studio to Commons page
+2025-09-16 - Updated Translation Hub
+2025-09-16 - Updated Link Dump and added feedback link
+2025-07-19 - Added YouTube verified badge and Play Button to Socials page
+2025-07-19 - Created YouTube and Play Button pages
+2025-07-19 - Added Threads Anniversary and Pride 2025 v2 logos to Icons page
+2025-07-18 - Updated Privacy Policy to mention Discord and Steam Workshop
+2025-07-18 - [Periodic Maintenance Begins]
+2025-07-01 - Updated Copy Paste Dump season on main page
+2025-07-01 - Changed "Social" to "Socials" on main page
+2025-06-09 - Added llms.txt
+2025-06-09 - Added .well-known file atproto-did
+2025-06-06 - Removed broken embed and added #InfiniteChef on Twitter page
+2025-06-01 - Changed "More R74n Commons" to simply "Commons" on main page
+2025-06-01 - Moved Halacae higher up on main page
+2025-06-01 - Halacae reclist and Halacae-to-IPA Lua script
+2025-06-01 - New Pride logo on main page and Icons page
+2025-05-29 - Updated 404 page and added case-insensitive redirects
+2025-05-29 - Updated Socials page - Added new links, added Prami icon for omg.lol
+2025-05-28 - Updated Music page - Multiple columns like Socials page
+2025-05-28 - Updated Socials page - Added new links, colored some links
+2025-05-26 - Updated Socials page - Added new links, colored many links, Improved QR buttons
+2025-05-24 - Moved Picrew logo maker link to Icons page
+2025-05-24 - Updated main page categories to use semantic tags
+2025-05-24 - Revamped Socials page with categorization and cleanup
+2025-05-24 - Fixed Amazon Music link on Music page
+2025-05-21 - Added main page messages for visitors from certain social media platforms
+2025-05-21 - Created R74n Observer
+2025-05-19 - Moved Bluesky higher on Socials page
+2025-05-18 - Updated Music page
+2025-05-18 - Added music link-in-bio pages to Socials page
+2025-05-18 - Reordered some Socials page links
+2025-05-01 - Added Rue & U! to Multiplane
+2025-05-01 - Updated Music page
+2025-04-24 - Published Music page
+2025-04-10 - Updated annual holiday dates for main page
+2025-04-10 - Updated Copy Paste Dump season on main page
+2025-04-10 - Fixed formatting typo on Socials page
+2025-03-31 - Updated R74n Guestbook links in accordance with its archiving
+2025-03-04 - Text Viewer Parser - Standalone
+2025-02-28 - Updated milestones.txt
+2025-02-18 - Updated Rue bookmarklet to work in Firefox
+2025-02-08 - Added LineRider.com file to Icons
+2025-02-07 - Updated Sandboxels schema, created Infinite Chef schema
+2025-02-05 - Archived News Flashes from 2024
+2025-02-01 - Updated Link Dump with user submissions
+2025-02-01 - 404 page now suggests Infinite Chef for "/ic"
+2025-02-01 - Added VIAF, LOC, FAIRsharing, BookBrainz to Identifiers
+2025-02-01 - Added Desmos Graph link to Icons
+2025-02-01 - Added Wafrn to Socials
+2025-01-24 - Updated Supporters page
+2025-01-16 - Updated Socials page with many new accounts, including new TikTok competitors
+2025-01-16 - Updated Translation Hub with user submissions
+2025-01-16 - Updated Copy Paste Dump season on main page
+
+See also:
+[Copy Paste Dump] https://c.r74n.com/ + https://c.r74n.com/news-archive
+[Explore with Rue] https://r74n.com/rue/changelog
+[Hello in Every Way] https://r74n.com/hello/changelog
+[Infinite Chef] https://r74n.com/cook/changelog.txt
+[Mix-Up!] https://r74n.com/mix/changelog
+[News Flash Archive] https://r74n.com/news-flash/
+[PixelFlags] https://r74n.com/pixelflags/changelog
+[R74n Newsletter] https://news.r74n.com/archive
+[Sandboxels] https://sandboxels.r74n.com/changelog

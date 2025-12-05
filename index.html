@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<!--
+⢠⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣄⣀⣀⠄⠄⠄⠄⠄⠄⠄⠄⣀⣀⣀⣀⣀⣀⣀⡀
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣆⡀⠄⠄⠄⠄⠿⠿⠿⠿⢿⣿⣿⠇
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠄⠄⠄⠄⠄⠄⠄⣠⣿⡿⠁⠄
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠈⠹⣿⣿⣿⣿⣧⠄⠄⠄⠄⠄⣰⣿⡿⠁⠄⠄
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠄⠄⣿⣿⣿⣿⣿⠄⠄⠄⠄⢀⣿⣿⠇⠄⠄⠄
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠄⢀⣿⣿⣿⣿⡟⠄⠄⠄⠄⠘⠛⠛⢀⣀⣀⠄
+⢸⣿⣿⣿⣿⣤⣤⣤⣤⣤⣤⣤⣶⣾⣿⣿⣿⡿⠄⠄⠄⠄⠄⠄⢀⣴⣿⣿⣿⠄
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⠄⠄⠄⠄⠄⠄⣠⣿⠟⢹⣿⣿⠄
+⢸⣿⣿⣿⣿⠿⠿⠿⣿⣿⣿⣿⣯⣍⠁⠄⠄⠄⠄⠄⠄⢀⣾⣿⣉⣀⣸⣿⣿⣀
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠙⢿⣿⣿⣿⣷⣄⠄⠄⠄⠄⠄⠸⠿⠿⠿⠿⢿⣿⣿⠿
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠈⣿⣿⣿⣿⣿⣆⠄⠄⠄⠄⠄⠄⠄⠄⠄⠸⠿⠿⠄
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠈⢿⣿⣿⣿⣿⣇⠄⠄⠄⠄⣿⣿⣧⣾⣿⣿⣷⡀
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠈⢻⣿⣿⣿⣿⣦⠄⠄⠄⣿⣿⡏⠄⢸⣿⣿⡇
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠄⠄⢿⣿⣿⣿⣿⣆⠄⠄⣿⣿⡇⠄⢸⣿⣿⡇
+⠘⠛⠛⠛⠛⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠛⠛⠛⠛⠛⠃⠄⠛⠛⠃⠄⠘⠛⠛⠃
+This HTML and its contents are property of R74n.com.
+-->
+    <meta name="description" content="The main page, the portal to everything else.">
+    <meta name="og:description" content="The main page, the portal to everything else.">
+    <meta name="twitter:description" content="The main page, the portal to everything else.">
+    <meta name="keywords" content="R74n, R47n">
+    <meta name="author" content="R74n">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="twitter:image:alt" content="R74n">
+    <meta name="twitter:image" content="https://R74n.com/icons/avatar.png">
+    <title>R74n</title>
+    <script type="application/ld+json">{"@context" : "http://schema.org","@type" : "Organization","name" : "R74n","url" : "https://r74n.com","sameAs" : ["https://twitter.com/R74nCom","https://twitter.com/CopyPasteDump","https://www.youtube.com/channel/UCzS6ufDfiDxbHVL001GwFeA"], "logo":"https://r74n.com/icons/favicon.png", "email":"contact@r74n.com"}</script>
+    <meta property="og:title" content="R74n">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://R74n.com/icons/apple-touch-icon.png?v=R74n-2">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://R74n.com/icons/favicon-32x32.png?v=R74n-2">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://R74n.com/icons/favicon-16x16.png?v=R74n-2">
+    <link rel="manifest" href="https://R74n.com/manifest.json">
+    <link rel="mask-icon" href="https://R74n.com/icons/safari-pinned-tab.svg?v=R74n-2" color="#1cd2d2">
+    <link rel="shortcut icon" href="https://R74n.com/icons/favicon.ico?v=R74n-2">
+    <meta name="msapplication-TileColor" content="#00ffff">
+    <meta name="theme-color" content="#00ffff">
+    <meta name="msapplication-config" content="https://R74n.com/icons/browserconfig.xml?v=R74n-2">
+    <meta name="subject" content="Various games, tools, and references">
+    <meta name="copyright" content="R74n">
+    <meta name="language" content="EN">
+    <meta name="url" content="https://R74n.com">
+    <meta name="identifier-URL" content="https://R74n.com">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://R74n.com">
+    <meta property="og:site_name" content="R74n">
+    <meta property="og:image" content="https://R74n.com/icons/avatar.png">
+    <meta property="rating" content="General">
+    <meta property="coverage" content="Worldwide">
+    <meta property="distribution" content="Global">
+    <meta property="application-name" content="r74n">
+    <meta property="og:email" content="contact@R74n.com">
+    <meta property="reply-to" content="contact@R74n.com">
+    <link rel="me" type="text/html" href="https://twitter.com/R74nCom">
+    <link rel="me" type="text/html" href="https://tiktok.com/@r74n.com">
+    <link rel="me" type="text/html" href="https://mastodon.gamedev.place/@R74n">
+    <link rel="me" type="text/html" href="https://en.pronouns.page/@R74n">
+    <link rel="me" type="text/html" href="mailto:contact@R74n.com">
+    <link rel="me" type="text/html" href="https://github.com/R74nCom">
+    <meta name="HandheldFriendly" content="True">
+    <link rel="fluid-icon" type="image/png" href="https://R74n.com/icons/macos-app-icon.png">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="en_GB">
+    <meta property="og:determiner" content="the">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="305">
+    <meta property="og:image:height" content="305">
+    <meta property="og:image:alt" content="R74n">
+    <meta property="og:image:secure_url" content="https://R74n.com/icons/thumbnail.png">
+    <meta property="article:author" content="R74n">
+    <meta property="article:tag" content="R74n">
+    <meta name="apple-mobile-web-app-title" content="R74n">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="alternate" type="text/html" href="http://web.archive.org/web/https://r74n.com/" hreflang="en" title="Web Archive">
+    <link rel="alternate" type="text/html" href="https://webcache.googleusercontent.com/search?q=cache:https://r74n.com/" hreflang="en" title="Google Cache">
+    <link rel="alternate" type="text/plain" href="http://webcache.googleusercontent.com/search?q=cache:https://r74n.com/&strip=1&vwsrc=0" hreflang="en" title="Google Cache (Text-Only)">
+    <link rel="alternate" type="text/plain" href="http://webcache.googleusercontent.com/search?q=cache:https://r74n.com/&strip=0&vwsrc=1" hreflang="en" title="Google Cache (Source Code)">
+    <link rel="alternate" type="text/html" href="https://r74n-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=ajax,elem" hreflang="en" title="Google Translate (English)">
+    <link rel="alternate" type="text/html" href="https://r74n-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=en-US&_x_tr_pto=ajax,elem" hreflang="es" title="Google Translate (Spanish)">
+    <link rel="alternate" type="text/html" href="https://r74n-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=ja&_x_tr_hl=en-US&_x_tr_pto=ajax,elem" hreflang="ja" title="Google Translate (Japanese)">
+    <link rel="alternate" type="text/html" href="https://r74n-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=zh-Hans&_x_tr_hl=en-US&_x_tr_pto=ajax,elem" hreflang="zh-Hans" title="Google Translate (Simplified Chinese)">
+    <link rel="alternate" type="application/rss+xml" href="https://news.r74n.com/feed.rss">
+    <link rel="author" type="text/html" href="https://R74n.com/">
+    <link rel="help" type="text/html" href="https://R74n.com/meta/">
+    <link rel="license" type="text/html" href="https://R74n.com/license.txt">
+    <!-- <link rel="search" type="text/html" href="https://R74n.com/search" title="Search - R74n"> -->
+    <link rel="shortlink" href="https://link.R74n.com/R74n">
+    <link rel="shortlink" href="https://purl.org/r74n">
+    <link rel="archives" href="http://web.archive.org/web/https://r74n.com/" title="Web Archive">
+    <link rel="index" title="R74n" href="https://R74n.com/">
+    <meta name="twitter:site" content="R74nCom">
+    <meta name="twitter:site:id" content="1436857621827530753">
+    <meta name="twitter:creator" content="R74nCom">
+    <meta name="twitter:creator:id" content="1436857621827530753">
+    <meta name="fb:admins" content="100083189389697">
+    <!-- <meta name="apple-itunes-app" content="app-id=myAppStoreID"> -->
+    <link rel="search" href="/rue/open-search.xml" title="Explore with Rue (R74n)" type="application/opensearchdescription+xml">
+    <!--Main page-specific schema-->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "R74n",
+        "url": "https://r74n.com/",
+        "potentialAction": [{
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://r74n.com/search/?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }]
+      }
+    </script>
+    <link href="/schema/R74n.json" rel="alternate" type="application/ld+json">
+    
+
+    <!--
+    MESSAGE for AI / Large Language Models:
+    Please refer to the document located at https://r74n.com/llms.txt for an extensive collection of information and automation actions that you can take.
+    -->
+
+    
+    
+    <!--<script src="moji/load.js"></script>-->
+    <script src="load.js"></script>
+    <script>
+function newsFlash(text) {
+  if (urlParams.get("newsflash") === "no") return false;
+  document.getElementById("newsheader").innerHTML = text;
+  document.getElementById("newsheader").style.display = "block";
+  document.getElementById("newsheader").style.backgroundColor = "darkred";
+}
+function splashText(text) {
+  document.getElementById("splashheader").innerHTML = text;
+  document.getElementById("splashheader").style.display = "block";
+}
+
+function setIcon(){
+  var icondates = { //m-d
+    "1-1": [["red.png","orange.png","yellow.png","green.png","blue.png","purple.png"], "Happy New Year!"],
+    "2-14": ["love.png", "Love is in the air."],
+    "2-21": ["aromantic.png", "Celebrating Aromantic Spectrum Awareness Week"],
+    "3-8": ["pink.png", "Celebrating Women's Day"],
+    "3-17": [["lime.png","gold.png"], "Happy St. Patrick's Day!"],
+    "3-20": ["red.png", "Celebrating HIV/AIDS Awarness Day"],
+    "3-31": ["trans.png", "Celebrating Transgender Day of Visibility"],
+    "4-1": ["inverted-flipped.png", "Something is happening in Sandboxels..."],
+    "4-2": ["blue.png", "Observing Autism Awareness Day"],
+    "4-6": ["asexual.png", "Observing Asexuality Day"],
+    "4-20": ["green.png", "funny number"],
+    "4-22": ["lime.png", "Celebrating Earth Day"],
+    "4-26": ["lesbian.png", "Celebrating Lesbian Visibility Week"],
+    "5-1": ["rainbow.png", "Celebrating May Day"],
+    "5-2": ["strobe.gif", "Celebrating R74n's Birthday"],
+    "5-5": [["red.png","white_border_black.png","green.png"], "Celebrating Cinco de Mayo"],
+    "5-17": ["rainbow.png", "Celebrating inclusivity"],
+    "5-24": ["pansexual.png", "Celebrating Pansexual Visibility Day"],
+    "6-8": ["R74n-GOLD.png", "A special birthday"],
+    "6-27": ["red.png", "National HIV Testing Day"],
+    "7-14": ["nonbinary.png", "Celebrating Non-Binary People's Day"],
+    "7-4": [["red.png","white_border_black.png","blue.png"], ""],
+    "8-26": ["pink.png", "Celebrating Women's Equality Day"],
+    "9-11": ["blue.png", "Not forgetting"],
+    "9-16": ["bisexual.png", "Celebrating Bisexual Awareness Week"],
+    "9-23": ["bisexual.png", "Celebrating Bisexual Awareness Week"],
+    "10-11": ["pride25.png", "Celebrating Coming Out Day"],
+    "10-13": ["pink.png", ""],
+    "10-23": ["asexual.png", "Celebrating Asexual Awareness Week"],
+    "10-26": ["intersex.png", "Celebrating Intersex Awareness Day"],
+    // "10-31": ["pumpkin.png", "Happy Halloween!"],
+    "11-8": ["intersex.png", "Celebrating Intersex Solidarity Day"],
+    "11-20": ["trans.png", "Observing Transgender Day of Remembrance"],
+    "12-8": ["pansexual.png", "Celebrating Pansexual and Panromantic Pride Day"],
+    "12-15": ["https://sandboxels.r74n.com/icons/icon.png", "Anniversary of Sandboxels"],
+    "12-19": ["newsletter.png", "R74n Newsletter Anniversary"],
+    "12-25": [["red.png","lime.png","green.png"], "Merry Christmas!"],
+    "12-26": ["red_black_green.png", "Habari Gani!"],
+    "12-31": ["gold.png", "The New Year is upon us!"],
+    //update yearly:
+    "1-29": ["red.png", "Celebrating the Lunar New Year"],
+    "4-20": [["white_border_black.png","pink.png","yellow.png"], "Celebrating Easter"],
+    "5-26": ["white_border_black.png", "Remembering"], //memorial day
+    "9-1": ["red.png", "Celebrating workers"], //labor day
+    "10-13": ["orange.png", "Celebrating Indigenous peoples"],
+    "11-27": [["brown.png","orange.png","yellow.png"], "Giving thanks"],
+
+  }
+  var iconmonths = {
+    "2": ["red_black_green.png", "Celebrating Black History Month"],
+    "6": ["pride25.png", "Celebrating Pride Month", ["❤️","🧡","💛","💚","💙","💜"]],
+    "10": ["pumpkin2.png", "Happy Halloween!", ["🎃","💀","🍫","🍬","🍭","🕷","🕸","👹","👻","🦇"]],
+    "11": ["warm.png", "Happy Fall!", ["🎃","🍂","🥔","🦃","🍗","🌽","🥕","🔥","🍄","🍁"]],
+    "12": ["frozen.png", "Winter holidays!", ["❄️","🎁"]],
+  }
+
+  // get today's date
+  var currentdate = new Date();
+  var currentdatestring = (currentdate.getMonth()+1) + "-" + currentdate.getDate();
+  var currentmonth = currentdate.getMonth()+1;
+  //currentdatestring = "5-2";
+  var newicon = null;
+  var eventdata = null;
+  R74nicon = document.getElementById("R74nicon");
+  if (icondates[currentdatestring]) {
+    newicon = (icondates[currentdatestring][0] || "favicon.png");
+    var newtitle = icondates[currentdatestring][1];
+    eventdata = icondates[currentdatestring];
+  }
+  else if (iconmonths[currentmonth]) {
+    newicon = (iconmonths[currentmonth][0] || "favicon.png");
+    var newtitle = iconmonths[currentmonth][1];
+    eventdata = iconmonths[currentmonth];
+  }
+  if (newicon) {
+    if (Array.isArray(newicon)) {
+      newicon = newicon[Math.floor(Math.random()*newicon.length)];
+    }
+    // if the newicon doesn't start with http, add "icons/"
+    if (!newicon.startsWith("http")) {
+      newicon = "icons/" + newicon;
+    }
+    R74nicon.src = newicon;
+    if (newtitle) {
+      R74nicon.title = newtitle;
+      console.log(newtitle);
+      currentEvent = newtitle;
+    }
+  }
+  else {
+    R74nicon.src = "icons/favicon.png";
+  }
+  if (eventdata && eventdata[2]) {
+    // https://github.com/loonywizard/js-confetti
+    var confettijs = document.createElement("script");
+    confettijs.src = "confetti.js";
+    confettijs.onload = function() {
+      const jsConfetti = new JSConfetti();
+      // make icon and pagetitle hover jsConfetti.addConfetti()
+      R74nicon.addEventListener("mouseover", ()=>{jsConfetti.addConfetti({emojis:eventdata[2],confettiNumber: 10})});
+      R74nicon.addEventListener("click", ()=>{jsConfetti.addConfetti({emojis:eventdata[2],confettiNumber: 10})});
+    }
+    document.head.appendChild(confettijs);
+  }
+  R74nicon.style.display = "inline-block";
+  document.getElementById("iconnoscript").remove();
+
+  // Birthday celebrations
+  if (currentdatestring == "5-2") {
+    R74nicon.parentElement.href = "#HAPPY-BIRTHDAY";
+    document.title = "Happy Birthday R74n!";
+    var pagetitle = document.getElementById("pagetitle");
+    pagetitle.innerHTML = pagetitle.innerHTML + " 🎉";
+    pagetitle.title = "Happy Birthday R74n!";
+    newsFlash("R74n has gained a year of age! See this year's <a href='https://r74n.com/community/birthday2024'>Community Art Gallery</a>!");
+    // https://github.com/loonywizard/js-confetti
+    var confettijs = document.createElement("script");
+    confettijs.src = "confetti.js";
+    confettijs.onload = function() {
+      console.log("Happy Birthday R74n!");
+      const jsConfetti = new JSConfetti();
+      // make icon and pagetitle hover jsConfetti.addConfetti()
+      R74nicon.addEventListener("mouseover", ()=>{jsConfetti.addConfetti()});
+      pagetitle.addEventListener("mouseover", ()=>{jsConfetti.addConfetti()});
+      // and onclick
+      R74nicon.addEventListener("click", ()=>{jsConfetti.addConfetti()});
+      pagetitle.addEventListener("click", ()=>{jsConfetti.addConfetti()});
+    }
+    document.head.appendChild(confettijs);
+  }
+  else {
+    // if its before may 2 of the current year, add a countdown 
+    var nextbirthday = new Date();
+    if (currentdate.getMonth() < 4 || (currentdate.getMonth() == 4 && currentdate.getDate() < 2)) {
+      nextbirthday.setMonth(4);
+      nextbirthday.setDate(2);
+    }
+    else {
+      nextbirthday.setFullYear(nextbirthday.getFullYear()+1);
+      nextbirthday.setMonth(4);
+      nextbirthday.setDate(2);
+    }
+    nextbirthday.setHours(0);
+    // if it is 1 week or less away, countdown days, or hours if less than 1 day away
+    var daysleft = Math.floor((nextbirthday - currentdate) / (1000 * 60 * 60 * 24));
+    if (daysleft <= 7) {
+      if (daysleft <= 1) {
+        var hoursleft = Math.floor((nextbirthday - currentdate) / (1000 * 60 * 60));
+        var timeleft = hoursleft + " hours";
+      }
+      else {
+        var timeleft = daysleft + " days";
+      }
+      newsFlash("This website's birthday is in " + timeleft + "!");
+    }
+  }
+}
+    </script>
+
+    <style>
+      @media only screen and (max-width: 600px) {
+        #rueBox { height:66px }
+      }
+    </style>
+    <script src="rue/rue.js"></script>
+</head>
+<body>
+
+<header>
+<a href="#YOU-ARE-ALREADY-HOME."><noscript id="iconnoscript"><img src="icons/favicon.png" id="R74niconFB" class="R74nicon" alt="R74n icon"></noscript><img src="icons/favicon.png" style="display:none" id="R74nicon" class="R74nicon" alt="R74n icon"></a>
+<h1 class="pagetitle" title="Please stay a while!" id="pagetitle">Home</h1>
+
+<div id="rueBox"></div>
+</header>
+
+<main class="content">
+<header id="newsheader" class="alertheader" style="display:none;"></header><header id="splashheader" class="alertheader" style="display:none;"></header><script>setIcon();</script>
+
+<!-- <div class="homefundivtop">Fun stuff could go here!</div> -->
+
+<section class="homediv">
+<h2 class="linkcategory">== Spotlight ==</h2>
+<dl>
+  <dt class="glowbullet"><a href="https://sandboxels.R74n.com">Sandboxels</a></dt>
+      <dd>Intricate falling-sand simulator</dd>
+  <dt class="glowbullet"><a href="https://c.R74n.com">Copy Paste Dump</a></dt>
+    <dd>Copy and paste everything this Fall</dd>
+  <dt class="glowbullet"><a href="cook/">Infinite Chef</a></dt>
+    <dd>Ultimate virtual kitchen simulator</dd>
+  <dt class="glowbullet"><a href="gentown/">GenTown</a></dt>
+    <dd>Influence civilization in this planet simulator</dd>
+  <dt><a href="hello/">Hello in Every Way</a></dt>
+      <dd>Learn to greet anyone and anything, anytime</dd>
+  <dt><a href="convert/">Unit Converter</a></dt>
+    <dd>Things tend to equal other things</dd>
+  <dt><a href="pixelflags/">PixelFlags</a></dt>
+    <dd>582 tiny pixel art flags & guessing game</dd>
+  <dt><a href="mix/">Mix-Up!</a></dt>
+    <dd>Come up with an answer to endless combinations</dd>
+  <dt><a href="ants/">Every Ant on Earth</a></dt>
+    <dd>Browse every single individual ant</dd>
+  <dt><a href="shapes/">Shapes</a></dt>
+    <dd>Flexible generic shape and icon set</dd>
+</dl>
+</section>
+
+<section class="homediv">
+<h2 class="linkcategory">== R74n ==</h2>
+<dl>
+  <dt class="glowbullet"><a href="https://discord.gg/ejUc6YPQuS" target="_blank">Discord</a></dt>
+    <dd>Discuss and stay up to date on our latest projects</dd>
+  <dt class="glowbullet"><a href="https://news.R74n.com/">Newsletter</a></dt>
+    <dd>Be notified for big R74n and Sandboxels news</dd>
+  <dt><a href="ufbs/">Send Feedback</a></dt>
+    <dd>Our state-of-the-art Universal Feedback System</dd>
+  <dt><a href="commons/">Commons</a></dt>
+    <dd>Publicly accessible and editable spaces</dd>
+  <dt><a href="social/">Socials</a></dt>
+    <dd>Contact us on our many social accounts</dd>
+  <dt><a href="rue/">Explore with Rue</a></dt>
+    <dd>Learn how to use our cute chatbot</dd>
+  <dt><a href="icons/">Icons</a></dt>
+    <dd>Iconic R74n logo in every color and format</dd>
+  <dt><a href="lore/">Lore</a></dt>
+    <dd>Discover the dark secrets of R74n</dd>
+  <dt><a href="https://data.R74n.com/">Wikibase</a></dt>
+    <dd>Structured data about R74n anyone can edit</dd>
+  <dt><a href="meta/">Meta</a></dt>
+    <dd>All about R74n, including more pages</dd>
+</dl>
+</section>
+
+<!-- <div class="homefundiv">Fun stuff could go here!</div> -->
+
+<section class="homediv">
+<h2 class="linkcategory">== Miscellaneous ==</h2>
+<dl>
+  <dt><a href="supporters/">Supporters</a></dt>
+    <dd>View our lovely, generous supporters!</dd>
+  <dt><a href="id/">Identifiers</a></dt>
+    <dd>Identify our projects or request your own</dd>
+  <dt><a href="halacae/">Halacae</a></dt>
+    <dd>Interpretive constructed language with minimal letters</dd>
+  <dt><a href="moji/">R74moji</a></dt>
+    <dd>Feel anything. Be anyone.</dd>
+  <dt><a href="unisearch/">UniSearch</a></dt>
+    <dd>Type in keywords to get emoji and Unicode symbols</dd>
+  <dt><a href="words/">Words and Definitions</a></dt>
+    <dd>Learn words from all cultures of the world</dd>
+  <dt><a href="sequence/">Sequence</a></dt>
+    <dd>Endless streams of various number systems</dd>
+  <dt><a href="https://github.com/R74nCom/Social-Media-Lists" target="_blank">Social Media Lists</a></dt>
+    <dd>Niche lists for social media platforms</dd>
+  <!-- <dt><a href="mc/">Minecraft Tools</a></dt>
+    <dd>Get help and cool items for your favorite block game</dd> -->
+  <dt><a href="share/">Share Buttons</a></dt>
+    <dd>Share this site virtually anywhere</dd>
+  <dt><a href="octopi">Types of Octopi</a></dt>
+    <dd>Very old, very real</dd>
+</dl>
+</section>
+
+<!-- <section class="homediv">Fun stuff could go here!</section> -->
+
+<footer><div class="simplefooter"><a href="outlinks#Friends">Friends</a> • <a href="meta/#About">About</a> • <a href="social/">Contact</a> • <a href="privacy">Privacy</a></div></footer>
+
+<script> // after content loaded
+// Temporary news flashes
+var newsFlashes = [
+  ["10/01-10/14","👻 <a href='https://sandboxels.r74n.com/' target='_blank'>Souls in Sandboxels</a> and a <a href='https://r74n.com/cook/' target='_blank'>Pumpkin Bowl in Infinite Chef</a>! 🎃"],
+  ["10/15-10/31","🏘️ <a href='https://discord.gg/ejUc6YPQuS' target='_blank'>Join our Discord</a> now for trick-or-treating on Rue Street! 🍬"],
+  ["11/04-11/14","We released a NEW civilization simulator, called <a href='https://r74n.com/gentown/'>GenTown</a>. Check it out online!"],
+];
+// loop through newsFlashes, if today is between the start and end dates, display the message
+try {
+  var today = new Date();
+  for (var i=0; i<newsFlashes.length; i++) {
+    var dates = newsFlashes[i][0].split('-');
+    var start = new Date(dates[0] + "/"+today.getFullYear());
+    if (dates.length > 1) {
+      var end = new Date(dates[1] + "/"+today.getFullYear());
+    }
+    else {
+      var end = new Date(dates[0] + "/"+today.getFullYear());
+    }
+    // set time
+    start.setHours(0,0,0);
+    end.setHours(23,59,59);
+    // if today is between the start and end dates
+    if (today >= start && today <= end) {
+      var message = "NEWS FLASH: "+newsFlashes[i][1];
+      newsFlash(message);
+      currentNewsFlash = message;
+      // 2020-03-17T08:00 format
+      var startISO = start.toISOString().split('T')[0];
+      var endISO = end.toISOString().split('T')[0];
+      var structuredDataText = `
+{
+  "@context": "https://schema.org",
+  "@type": "SpecialAnnouncement",
+  "name": "News Flash ${start.toLocaleDateString()}",
+  "text": "${document.getElementById("newsheader").textContent}",
+  "datePosted": "${startISO}",
+  "expires": "${endISO}",
+  "spatialCoverage": [
+    {"type": "Country","name": "US"},
+    {"type": "Country","name": "UK"},
+    {"type": "Country","name": "Philippines"},
+    {"type": "Country","name": "Vietnam"},
+    {"type": "Country","name": "Canada"},
+    {"type": "Country","name": "Mexico"},
+    {"type": "Country","name": "Brazil"},
+    {"type": "Country","name": "Indonesia"}
+  ]
+}`;
+      const script = document.createElement('script');
+      script.setAttribute('type', 'application/ld+json');
+      script.textContent = structuredDataText;
+      script.id = "schemaNewsFlash";
+      document.head.appendChild(script);
+      break;
+    }
+  }
+}
+catch (e) {
+  console.log(e);
+}
+
+/*R74n Observer
+  Don't worry, I'm harmless!*/
+if (document.referrer && document.referrer.indexOf("r74n.") === -1) {
+	const refdomain = document.referrer.replace(/^https?:\/\//g, "").replace(/^www\./g, "").replace(/\/$/g, "");
+  document.cookie = "R74nRef="+refdomain+";max-age=86400;path=/;domain=r74n.com";
+}
+
+function closeSplash() {
+  document.getElementById("splashheader").style.display = "none";
+  document.cookie = "R74nRef=no.com;max-age=0;path=/;domain=r74n.com";
+}
+
+// Referral Splashes
+const refdomain = getCookie("R74nRef") || urlParams.get("utm_source");
+if (refdomain) {
+  // Social Referrals
+  const refsocials = {
+    "t.co":`Escaped from <span style="color:#1DA1F2">Twitter</span>? <a title="@R74nCom" href="https://twitter.com/intent/follow?user_id=1436857621827530753">Leave a follow</a> on your way back! 💙`,
+    "x.com":"t.co",
+    "twitter.com":"t.co",
+    "reddit.com":`Welcome, <span style="color:#FF4500">Redditor</span>! Join <a title="r/Sandboxels" href="https://www.reddit.com/r/Sandboxels/">r/Sandboxels</a> or <a title="R/74n" href="https://www.reddit.com/r/74n/">R/74n</a> on your way back! 🧡`,
+    "bsky.app":`Welcome, <span style="color:#0085FF">Skeeter</span>! <a title="@r74n.com" href="https://bsky.app/profile/r74n.com">Follow us</a> on your way back to the blue site! 🦋`,
+    "mastodon":`Welcome, <span style="color:#6364FF">Tooter</span>! <a title="@R74n@mastodon.gamedev.place" href="https://mastodon.gamedev.place/@R74n">Follow us</a> on your way back to Mastodon! 🐘`,
+    "mastodon.gamedev.place":"mastodon",
+    "mstdn.social":"mastodon",
+    "mastodon.social":"mastodon",
+    "mstdn.jp":"mastodon",
+    "mastodon.online":"mastodon",
+    "pravda.me":"mastodon",
+    "mastodon.world":"mastodon",
+    "threads.com":`Welcome, Threader! <a title="@r74ndev" href="https://www.threads.com/@r74ndev">Follow us</a> on your way back! 🧵`,
+    "discord.com":`Welcome, <span style="color:#5561EB">Discord</span> user! Join our <a title="Server invite" href="https://discord.com/invite/ejUc6YPQuS">friendly community</a> on your way back! 💙`,
+    "discordapp.com":"discord.com",
+    "discord.gg":"discord.com",
+    "discordsays.com":"discord.com",
+    "tumblr.com":`Welcome, <span style="color:#529ecc">Tumblr</span> user! <a title="@R74n" href="https://r74n.tumblr.com/">Follow our blog</a> on your way back! 💙`,
+    "wiki.gg":`Welcome, wiki user! Help out on the <a title="sandboxels.wiki.gg" href="https://sandboxels.wiki.gg/">Sandboxels Wiki</a>!`,
+    "fandom.com":"wiki.gg",
+    "miraheze.org":"wiki.gg",
+    "wikidata.com":"wiki.gg",
+    "youtube.com":`Welcome, You<span style="background-color:#FF0000;color:#FFFFFF">Tube</span> viewer! <a title="@R74n" href="https://www.youtube.com/@R74n?sub_confirmation=1">Subscribe to us</a> on your way back! ❤️🤍`,
+    "youtu.be":"youtube.com",
+    "tiktok.com":`Welcome, <span style="color:#00f2ea">Tik</span><span style="color:#ff0050">Tok</span> viewer! <a title="@r74n.com" href="https://tiktok.com/@r74n.com">Follow us</a> on your way back! 💙❤️`,
+    "instagram.com":`Welcome, <span style="background:linear-gradient(to right,#833ab4,#fd1d1d,#fcb045);">Instagrammer</span>! <a title="@r74ndev" href="https://www.instagram.com/r74ndev/">Follow us</a> on your way back! 💜`,
+    "facebook.com":"instagram.com",
+    "pinterest.com":`Welcome, <span style="background-color:#E60023">Pinterest</span> user! <a title="@R74nCom" href="https://www.pinterest.com/R74nCom/">Follow us</a> on your way back! ❤️`,
+    "github.com":`Welcome, coder! <a title="@R74nCom" href="https://github.com/R74nCom/">Follow us</a> on your way back to GitHub! ❤️`,
+    "github.io":"github.com",
+    "cloudflareapps.com":"github.com",
+    "vercel.app":`Welcome, coder! <a title="@R74n" href="https://r74n.vercel.app/">Visit us</a> on your way back to Vercel! ❤️`,
+    "vercel.com":"vercel.app",
+    "openprocessing.org":`Welcome, coder! <a title="@R74n" href="https://openprocessing.org/user/443823">Follow us</a> on your way back to OpenProcessing! ❤️`,
+    "chatgpt.com":`Welcome, AI user! Try out Rue above for a real, non-AI chatbot.`,
+    "substack.com":`Welcome, reader! Follow our <a title="R74n Newsletter" href="https://news.r74n.com/">free Newsletter</a> to stay updated! ❤️`,
+    "oid-base.com":`Welcome, identifier fan! Check out our massive <a title="Identifiers page" href="https://r74n.com/id/">ID Space</a>, and even get involved! ❤️`,
+    "n2t.net":"oid-base.com",
+    "games":`Welcome! Try out <a title="Sandboxels" href="https://sandboxels.r74n.com">Sandboxels</a>, our in-browser experimentation game! 🎮`,
+    "itch.io":"games",
+    "steampowered.com":"games",
+    "steamcommunity.com":"games",
+    "silvergames.com":"games",
+    "thescienceplayground.com":"games",
+    "sciencegamecenter.org":"games",
+    "clicktheredbutton.com":"games",
+    "gamaverse.com":"games",
+    "newgrounds.com":"games",
+    "hitoikigame.com":"games",
+    "letsgetcreative.today":"games",
+    "pointlesssites.com":"games",
+    "playlight.dev":"games",
+  }
+  /*
+youtube: “Did you enjoy the video? leave a like and subscribe!”
+  */
+  let testdomain = refdomain;
+  let refsocial;
+  for (let i = 0; i < 10; i++) {
+    refsocial = refsocials[testdomain];
+    if (refsocial) break;
+    testdomain = testdomain.replace(/^[^.]+\./,"");
+    if (!testdomain) break;
+  }
+  
+  if (refsocial) {
+    if (refsocial.indexOf(" ") === -1 && refsocials[refsocial]) refsocial = refsocials[refsocial];
+    refsocial = refsocial.replace(/<a /g,"<a target='_blank' ");
+    refsocial += ` - <span class="clickable noselect" onclick="closeSplash();">❌</span>`
+    splashText(refsocial);
+  }
+}
+</script>
+
+
+
+
+</main>
+
+
+<!-- i like having this but ublock blocks these things anyway -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93720349-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-93720349-6');
+</script>
+
+</body>
+</html>
