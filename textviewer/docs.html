@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<!--
+⢠⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣄⣀⣀⠄⠄⠄⠄⠄⠄⠄⠄⣀⣀⣀⣀⣀⣀⣀⡀
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣆⡀⠄⠄⠄⠄⠿⠿⠿⠿⢿⣿⣿⠇
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠄⠄⠄⠄⠄⠄⠄⣠⣿⡿⠁⠄
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠈⠹⣿⣿⣿⣿⣧⠄⠄⠄⠄⠄⣰⣿⡿⠁⠄⠄
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠄⠄⣿⣿⣿⣿⣿⠄⠄⠄⠄⢀⣿⣿⠇⠄⠄⠄
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠄⢀⣿⣿⣿⣿⡟⠄⠄⠄⠄⠘⠛⠛⢀⣀⣀⠄
+⢸⣿⣿⣿⣿⣤⣤⣤⣤⣤⣤⣤⣶⣾⣿⣿⣿⡿⠄⠄⠄⠄⠄⠄⢀⣴⣿⣿⣿⠄
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⠄⠄⠄⠄⠄⠄⣠⣿⠟⢹⣿⣿⠄
+⢸⣿⣿⣿⣿⠿⠿⠿⣿⣿⣿⣿⣯⣍⠁⠄⠄⠄⠄⠄⠄⢀⣾⣿⣉⣀⣸⣿⣿⣀
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠙⢿⣿⣿⣿⣷⣄⠄⠄⠄⠄⠄⠸⠿⠿⠿⠿⢿⣿⣿⠿
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠈⣿⣿⣿⣿⣿⣆⠄⠄⠄⠄⠄⠄⠄⠄⠄⠸⠿⠿⠄
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠈⢿⣿⣿⣿⣿⣇⠄⠄⠄⠄⣿⣿⣧⣾⣿⣿⣷⡀
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠈⢻⣿⣿⣿⣿⣦⠄⠄⠄⣿⣿⡏⠄⢸⣿⣿⡇
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠄⠄⢿⣿⣿⣿⣿⣆⠄⠄⣿⣿⡇⠄⢸⣿⣿⡇
+⠘⠛⠛⠛⠛⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠛⠛⠛⠛⠛⠃⠄⠛⠛⠃⠄⠘⠛⠛⠃
+This HTML and its contents are property of R74n.com.
+-->
+    <meta name="description" content="Documentation for the R74n Text Viewer.">
+    <meta name="keywords" content="R74n, R47n">
+    <meta name="author" content="R74n">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="twitter:image:alt" content="R74n">
+    <meta name="twitter:image" content="https://R74n.com/icons/avatar.png">
+    <title>Text Viewer Guide - R74n</title>
+    <script type="application/ld+json">{"@context" : "http://schema.org","@type" : "Organization","name" : "R74n","url" : "https://r74n.com","sameAs" : ["https://twitter.com/R74nCom","https://twitter.com/CopyPasteDump","https://www.youtube.com/channel/UCzS6ufDfiDxbHVL001GwFeA"], "logo":"https://r74n.com/icons/favicon.png", "email":"contact@r74n.com"}</script>
+    <link rel="stylesheet" type="text/css" href="../normalize.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://R74n.com/icons/apple-touch-icon.png?v=R74n-2">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://R74n.com/icons/favicon-32x32.png?v=R74n-2">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://R74n.com/icons/favicon-16x16.png?v=R74n-2">
+    <link rel="manifest" href="https://R74n.com/manifest.json">
+    <link rel="mask-icon" href="https://R74n.com/icons/safari-pinned-tab.svg?v=R74n-2" color="#1cd2d2">
+    <link rel="shortcut icon" href="https://R74n.com/icons/favicon.ico?v=R74n-2">
+    <meta name="msapplication-TileColor" content="#00ffff">
+    <meta name="theme-color" content="#00ffff">
+    <meta name="msapplication-config" content="https://R74n.com/icons/browserconfig.xml?v=R74n-2">
+
+    <script src="https://R74n.com/load.js"></script>
+    <style>
+      #commandtable tbody td:nth-child(odd), #parametertable tbody td:nth-child(odd), #specialstringtable tbody td:nth-child(odd), #commandlist li {
+        font-family: monospace;
+      }
+      #commandtable tbody td:nth-child(odd) em {color:lime}
+      em.optional {color:yellow!important}
+    </style>
+
+</head>
+<body>
+
+
+<a href="." class="backbutton">⦉</a>
+<h1 class="pagetitle">Text Viewer Guide</h1>
+<div class="content">
+
+<h2 id="markdown">Markdown</h2>
+<p>Text Viewer supports Markdown. More specifically, it uses Showdown, and documentation for that can be found here: http://demo.showdownjs.com/</p>
+
+<p>If the first line starts with "#", the rest of the line will be used as the page title.</p>
+
+<h2 id="special-strings">Special Strings</h2>
+<p>These strings will be replaced:</p>
+<table id="specialstringtable">
+<thead>
+  <tr><th>String</th><th>Replacement</th></tr>
+</thead>
+<tbody>
+  <tr><td>\n</td><td>New Line</td></tr>
+</tbody>
+</table>
+
+
+<h2 id="escaping">Escaping Text</h2>
+<p>You can prevent the following characters from being parsed by preceding them with a backslash (\): &nbsp; \ # { } : | * _</p>
+<p>So, typing \{{command\}} will display as {{command}}.</p>
+
+
+<h2 id="parameters">URL Parameters</h2>
+<p>Simply adding "?Example" to the URL will display "Example".</p>
+<p>To get more complex, use these parameters:</p>
+<table id="parametertable">
+<thead>
+  <tr><th>Parameter</th><th>Description</th></tr>
+</thead>
+<tbody>
+  <tr><td>?text=</td><td>Text to be parsed and displayed</td></tr>
+  <tr><td>?title=</td><td>Text to replace the page title</td></tr>
+</tbody>
+</table>
+
+
+<h2 id="commands">Commands</h2>
+<p>Commands can be used to spice up your text.</p>
+<p>Possible formats:</p>
+<ul id="commandlist">
+  <li>{{command}}</li>
+  <li>{{command:arg1|arg2|arg3|...}}</li>
+  <li>{{command|arg1|arg2|arg3|...}}</li>
+</ul>
+<p><em><span style="color:lime">Required</span>, <span style="color:yellow">Optional</span></em></p>
+<table id="commandtable">
+<thead>
+  <tr><th>Command</th><th>Description</th>
+</thead>
+<tbody>
+  <tr>
+    <td>{{char:<em class="optional">text</em>|<em class="optional">position</em>}}</td>
+    <td>Character at a position in the string. (Starting at 0)</td>
+  </tr>
+  <tr>
+    <td>{{choose:<em class="optional">option1</em>|<em class="optional">option2</em>|<em class="optional">...</em>}}<br>
+        {{choose:<em class="optional">option1</em>,<em class="optional">option2</em>,<em class="optional">...</em>}}</td>
+    <td>Picks a random item from a selection.</td>
+  </tr>
+  <tr>
+    <td>{{comment:<em class="optional">text</em>}}<br>
+        {{#:<em class="optional">text</em>}}</td>
+    <td>Does not display.</td>
+  </tr>
+  <tr>
+    <td>{{error:<em class="optional">message</em>}}</td>
+    <td>Displays an error message.</td>
+  </tr>
+  <tr>
+    <td>{{if:<em>text-to-test</em>|<em>condition=result</em>|<em class="optional">else=result</em>}}<br>
+        {{if:<em>number</em>|<em>&lt;condition=result</em>|<em class="optional">else=result</em>}}<br>
+        {{if:<em>number</em>|<em>&gt;condition=result</em>|<em class="optional">else=result</em>}}</td>
+    <td>Displays text based on conditions. Infinite arguments.</td>
+  </tr>
+  <tr>
+    <td>{{lower:<em class="optional">text</em>}}</td>
+    <td>Converts text to lowercase.</td>
+  </tr>
+  <tr>
+    <td>{{range:<em class="optional">min</em>|<em class="optional">max</em>}}<br>
+        {{range:<em class="optional">min</em>-<em class="optional">max</em>}}</td>
+    <td>Picks a number from a minimum to a maximum.</td>
+  </tr>
+  <tr>
+    <td>{{repeat:<em class="optional">text</em>|<em class="optional">amount</em>}}</td>
+    <td>Repeat text.</td>
+  </tr>
+  <tr>
+    <td>{{replace:<em>text</em>|<em>find</em>|<em class="optional">replace-with</em>}}</td>
+    <td>Replaces text with another.</td>
+  </tr>
+  <tr>
+    <td>{{replacedict:<em>text</em>|<em>find=replace-with</em>|<em class="optional">...</em>}}</td>
+    <td>Replaces multiple strings at once. Infinite arguments.</td>
+  </tr>
+  <tr>
+    <td>{{title:<em class="optional">text</em>}}</td>
+    <td>Converts text to Title Case.</td>
+  </tr>
+  <tr>
+    <td>{{upper:<em class="optional">text</em>}}</td>
+    <td>Converts text to UPPERCASE.</td>
+  </tr>
+  <tr>
+    <td>{{wrap:<em>text</em>|<em>wrapper</em>}}</td>
+    <td>Adds a string to both sides of text.</td>
+  </tr>
+</tbody>
+</table>
+
+
+</div>
+
+
+<!-- i like having this but ublock blocks these things anyway -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93720349-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-93720349-6');
+</script>
+
+</body>
+</html>

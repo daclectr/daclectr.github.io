@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<!--
+⢠⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣄⣀⣀⠄⠄⠄⠄⠄⠄⠄⠄⣀⣀⣀⣀⣀⣀⣀⡀
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣆⡀⠄⠄⠄⠄⠿⠿⠿⠿⢿⣿⣿⠇
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠄⠄⠄⠄⠄⠄⠄⣠⣿⡿⠁⠄
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠈⠹⣿⣿⣿⣿⣧⠄⠄⠄⠄⠄⣰⣿⡿⠁⠄⠄
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠄⠄⣿⣿⣿⣿⣿⠄⠄⠄⠄⢀⣿⣿⠇⠄⠄⠄
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠄⢀⣿⣿⣿⣿⡟⠄⠄⠄⠄⠘⠛⠛⢀⣀⣀⠄
+⢸⣿⣿⣿⣿⣤⣤⣤⣤⣤⣤⣤⣶⣾⣿⣿⣿⡿⠄⠄⠄⠄⠄⠄⢀⣴⣿⣿⣿⠄
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⠄⠄⠄⠄⠄⠄⣠⣿⠟⢹⣿⣿⠄
+⢸⣿⣿⣿⣿⠿⠿⠿⣿⣿⣿⣿⣯⣍⠁⠄⠄⠄⠄⠄⠄⢀⣾⣿⣉⣀⣸⣿⣿⣀
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠙⢿⣿⣿⣿⣷⣄⠄⠄⠄⠄⠄⠸⠿⠿⠿⠿⢿⣿⣿⠿
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠈⣿⣿⣿⣿⣿⣆⠄⠄⠄⠄⠄⠄⠄⠄⠄⠸⠿⠿⠄
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠈⢿⣿⣿⣿⣿⣇⠄⠄⠄⠄⣿⣿⣧⣾⣿⣿⣷⡀
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠈⢻⣿⣿⣿⣿⣦⠄⠄⠄⣿⣿⡏⠄⢸⣿⣿⡇
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠄⠄⢿⣿⣿⣿⣿⣆⠄⠄⣿⣿⡇⠄⢸⣿⣿⡇
+⠘⠛⠛⠛⠛⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠛⠛⠛⠛⠛⠃⠄⠛⠛⠃⠄⠘⠛⠛⠃
+This HTML and its contents are property of R74n.com.
+-->
+    <meta name="description" content="Translate various aspects of R74n here.">
+    <meta name="keywords" content="R74n, R47n">
+    <meta name="author" content="R74n">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="twitter:image:alt" content="R74n">
+    <meta name="twitter:image" content="https://R74n.com/icons/avatar.png">
+    <title>Translation Hub - R74n</title>
+    <script type="application/ld+json">{"@context" : "http://schema.org","@type" : "Organization","name" : "R74n","url" : "https://r74n.com","sameAs" : ["https://twitter.com/R74nCom","https://twitter.com/CopyPasteDump","https://www.youtube.com/channel/UCzS6ufDfiDxbHVL001GwFeA"], "logo":"https://r74n.com/icons/favicon.png", "email":"contact@r74n.com"}</script>
+    <link rel="stylesheet" type="text/css" href="../normalize.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://R74n.com/icons/apple-touch-icon.png?v=R74n-2">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://R74n.com/icons/favicon-32x32.png?v=R74n-2">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://R74n.com/icons/favicon-16x16.png?v=R74n-2">
+    <link rel="manifest" href="https://R74n.com/manifest.json">
+    <link rel="mask-icon" href="https://R74n.com/icons/safari-pinned-tab.svg?v=R74n-2" color="#1cd2d2">
+    <link rel="shortcut icon" href="https://R74n.com/icons/favicon.ico?v=R74n-2">
+    <meta name="msapplication-TileColor" content="#00ffff">
+    <meta name="theme-color" content="#00ffff">
+    <meta name="msapplication-config" content="https://R74n.com/icons/browserconfig.xml?v=R74n-2">
+
+    <script src="https://R74n.com/load.js"></script>
+    <script src="../cw.js"></script>
+
+</head>
+<body>
+
+
+<a href="https://R74n.com" class="backbutton">⦉</a>
+<h1 class="pagetitle">Translation Hub</h1>
+<div class="content">
+
+<p>Here you may find translation-related things for the R74n Collective.</p>
+<p>Help translate! Submit anything at all to the <a href="https://docs.google.com/forms/d/e/1FAIpQLSfudgcdqzF1HhRhY7L_xGun2t7JvVNU3KzE63uU_1iEIddBwA/viewform?usp=pp_url&entry.391765687=Translations" target="_blank">Feedback Form</a>. It can be an entirely new translation, and a section here will be created for it.</p>
+
+<h2>Main Site</h2>
+<p>Translations for <a href="https://R74n.com">R74n.com</a>. Translate the main page on <a href="https://r74n-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=es" target="_blank">Google Translate</a> or <a href="https://translated.turbopages.org/proxy_u/en-es.en/https/r74n.com/" target="_blank">Yandex Translate</a>. See also: <a href="../icons/">Logos</a>, <a href="../lore/old/#Capitalize">Capitalization</a></p>
+<p>Each character is pronounced separately. It is not 'seventy-four', it is 'seven' and 'four'.</p>
+
+<table>
+  <thead>
+    <tr><th>Language</th><th>Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English / Multilingual</td><td>R74n</td></tr>
+    <tr><td>English (Pronunciation)</td><td>Are Seven Four en</td></tr>
+    <tr><td>English (Number Words)</td><td>R Seven Four n</td></tr>
+    <tr><td>IPA</td><td>ɑˈɹ sɛˈvʌn fɔˈɹ ɛˈn<br>ɑː ˈsɛv(ə)n fɔː ɛn<br>ɑːˈsɛv(ə)nfɔːɛn</td></tr>
+    <tr><td>Latin / Roman Numerals</td><td>R VII IV n<br>R Ⅶ Ⅳ n</td></tr>
+    <tr><td>Cyrillic</td><td>Р74н</td></tr>
+    <tr><td>Greek</td><td>ΡΖ'Δʹν<br>῾Ρ74ν</td></tr>
+    <tr><td>Japanese (Katakana)</td><td>アー・セブン・フォー・エン<br>アー・七・四・エン<br>ラ74ン</td></tr>
+    <tr><td>Japanese (Hiragana)</td><td>あー・せぶん・ふぉー・えん<br>ら74ん</td></tr>
+    <tr><td>Japanese (Gyaru-moji)</td><td>ぁ→ 世ﾌ〃ω ﾌ〃ぉ→ ぇω</td></tr>
+    <tr><td>Japanese (Romaji)</td><td>ā・sebun・fuo・en</td></tr>
+    <tr><td>English (Fullwidth)</td><td>Ｒ７４ｎ</td></tr>
+    <tr><td>Chinese</td><td>啊七四呐</td></tr>
+    <tr><td>Chinese (Counting Rods)</td><td>啊𝍦𝍣呐</td></tr>
+    <tr><td>Chinese (Tally Marks)</td><td>啊 𝍶𝍳 𝍵 呐</td></tr>
+    <tr><td>Korean (Hangul)</td><td>아칠사온</td></tr>
+    <tr><td>"Test" Numerals</td><td>R󳀇󳀄n<br><img src="image/test-numerals.png" class="imgtext"></td></tr>
+    <tr><td>Aegean Numerals</td><td>R𐄍𐄊n</td></tr>
+    <tr><td>Albanian (Elbasan)</td><td>𐔙74𐔓</td></tr>
+    <tr><td>American Sign Language</td><td><img src="image/R74n-ASL.jpg" class="invert"></td></tr>
+    <tr><td>Ancient South Arabian</td><td>𐩧𐩭𐩽𐩽𐩽𐩽𐩽𐩽𐩽𐩬</td></tr>
+    <tr><td>Arabic (Eastern)</td><td dir="rtl">ر٧٤ن</td></tr>
+    <tr><td>Arabic (Western)</td><td dir="rtl">ر74ن</td></tr>
+    <tr><td>Armenian</td><td>Ր74ն<br>ՐԷԴն</td></tr>
+    <tr><td>Assamese</td><td>ড়৭৪ণ</td></tr>
+    <tr><td>Aurebesh</td><td><img src="image/R74n-Aurebesh.png" class="imgtext invert"></td></tr>
+    <tr><td>Balinese (Aksara Sualalita)</td><td>ᬭ᭗᭔ᬡ</td></tr>
+    <tr><td>Balinese (Aksara Wreṣāstra)</td><td>ᬭ᭗᭔ᬦ</td></tr>
+    <tr><td>Baybayin</td><td>ᜇ᜔74ᜈ᜔</td></tr>
+    <tr><td>Bengali</td><td>র৭৪ন</td></tr>
+    <tr><td>Braille</td><td>⠗⠼⠛⠼⠙⠝</td></tr>
+    <tr><td>Cham</td><td>ꨣ꩗꩔ꨗ</td></tr>
+    <tr><td>Deseret</td><td>𐐡74𐑌</td></tr>
+    <tr><td>Devanagari</td><td>र७४न</td></tr>
+    <tr><td>Duployan Shorthand</td><td>𛰋74𛰚</td></tr>
+    <tr><td>Etruscan</td><td>𐌓 𐌡𐌠𐌠 𐌠𐌠𐌠𐌠 𐌍</td></tr>
+    <tr><td>Filipino (Number Words)</td><td>R Pito Apat n</td></tr>
+    <tr><td>Futhark</td><td>ᚱ74ᚾ</td></tr>
+    <tr><td>Ge'ez</td><td>ረ፯፬ነ</td></tr>
+    <tr><td>Georgian (Asomtavruli)</td><td>Ⴐ74Ⴌ<br>ႰႦႣႬ</td></tr>
+    <tr><td>Georgian (Nuskhuri)</td><td>ⴐ74ⴌ<br>ⴐⴆⴃⴌ</td></tr>
+    <tr><td>Georgian</td><td>რ74ნ<br>რზდნ</td></tr>
+    <tr><td>Glagolitic</td><td>ⰓⰆⰃⰐ</td></tr>
+    <tr><td>Gothic</td><td>𐍂•𐌶••𐌳•𐌽</td></tr>
+    <tr><td>Gujarati</td><td>ર૭૪ન</td></tr>
+    <tr><td>Halacae</td><td>Ra-RA-LA-me</td></tr>
+    <tr><td>Hanifi Rohingya</td><td dir="rtl">𐴌𐴷𐴴𐴕</td></tr>
+    <tr><td>Hebrew</td><td dir="rtl">רזדנן</td></tr>
+    <tr><td>Hindu Arabic Numerals</td><td>ര74ന</td></tr>
+    <tr><td>Inuktitut</td><td>ᕐ74ᓐ</td></tr>
+    <tr><td>Javanese</td><td>ꦲꦺꦂ꧇꧗꧔꧇ꦲꦺꦤ꧀<br>ꦫ꧇꧗꧔꧇ꦤ</td></tr>
+    <tr><td>Jawi</td><td>ر74ن</td></tr>
+    <tr><td>Kaithi</td><td>𑂩74𑂢</td></tr>
+    <tr><td>Kaktovik Numerals</td><td>R𝋇𝋄n</td></tr>
+    <tr><td>Kannada</td><td>ರ౭౪ನ</td></tr>
+    <tr><td>Kayah Li</td><td>ꤚ꤇꤄ꤔ</td></tr>
+    <tr><td>Kharosthi</td><td>𐨪𐩃𐩀𐩀𐩀𐩃𐨣</td></tr>
+    <tr><td>Khmer</td><td>រ៧៤ណ</td></tr>
+    <tr><td>Ladino</td><td>R74n<br>ר74נ/רזדנן<br>آ74 إن<br>Р74н</td></tr>
+    <tr><td>Lao</td><td>ຣ໗໔ນ</td></tr>
+    <tr><td>Limbu</td><td>ᤖ᥍᥊ᤏ</td></tr>
+    <tr><td>Linear B (Aegean Numerals)</td><td>𐀨𐄍𐄊𐀙</td></tr>
+    <tr><td>Lontara</td><td>ᨑ74ᨊ</td></tr>
+    <tr><td>Lycian</td><td>𐊕&lt;II IIII𐊏</td></tr>
+    <tr><td>Lydian</td><td dir="rtl">𐤭74𐤫</td></tr>
+    <tr><td>Malayalam</td><td>ര൭൪ന</td></tr>
+    <tr><td>Manchu</td><td><span class="vertical">ᡵ᠊74ᠨ</span></td></tr>
+    <tr><td>Mayan Numerals</td><td>R𝋧𝋤n</td></tr>
+    <tr><td>Mon-Burmese</td><td>ရ၇၄န</td></tr>
+    <tr><td>Mongolian</td><td><span class="vertical">ᠭ᠗᠔ᠨ</span></td></tr>
+    <tr><td>N'Ko</td><td dir="rtl">ߙ߇߄ߢ</td></tr>
+    <tr><td>Odia</td><td>ର୭୪ନ</td></tr>
+    <tr><td>Ogham</td><td>᚛ᚏ74ᚊ᚜</td></tr>
+    <tr><td>Old Hungarian</td><td dir="rtl">𐲢𐳻𐳺𐳺 𐳺𐳺𐳺𐳺𐳙</td></tr>
+    <tr><td>Old Makasar</td><td>𑻭74𑻨</td></tr>
+    <tr><td>Old Permic</td><td>𐍠74𐍝</td></tr>
+    <tr><td>Osmanya</td><td>𐒇𐒧𐒤𐒒</td></tr>
+    <tr><td>Parthian (Inscriptional)</td><td dir="rtl">𐭓𐭛𐭚 𐭛𐭍</td></tr>
+    <tr><td>Phoenician</td><td dir="rtl">𐤓74𐤍</td></tr>
+    <tr><td>Polish (Number Words)</td><td>R Siedem Cztery n</td></tr>
+    <tr><td>Polish (Pronunciation)</td><td>Er Siedem Cztery en</td></tr>
+    <tr><td>Proto-Canaanite</td><td>𐤓74𐤍</td></tr>
+    <tr><td>Samaritan Hebrew</td><td>ࠓࠆࠃࠍࠍ</td></tr>
+    <tr><td>Shavian</td><td>𐑮74𐑯</td></tr>
+    <tr><td>Sinhala (Illakkam)</td><td>ර𑇧𑇤න</td></tr>
+    <tr><td>Sinhala (Lith Illakkam)</td><td>ර෭෪න</td></tr>
+    <tr><td>Sinhala</td><td>ර74න</td></tr>
+    <tr><td>South Arabian (Ancient)</td><td dir="rtl">𐩧𐩭𐩽𐩽𐩿𐩽𐩽𐩽𐩽𐩬</td></tr>
+    <tr><td>Soyombo</td><td>𑩼74𑩯</td></tr>
+    <tr><td>Sundanese</td><td>ᮛ᮷᮴ᮔ</td></tr>
+    <tr><td>Sunuwar</td><td>𑯄74𑯍</td></tr>
+    <tr><td>Sylheti Nagri</td><td>ꠞ74ꠘ</td></tr>
+    <tr><td>Tai Tham (Lek Hora)</td><td>ᩁ᪇᪄ᨶ</td></tr>
+    <tr><td>Tai Tham (Lek Nai Tham)</td><td>ᩁ᪗᪔ᨶ</td></tr>
+    <tr><td>Tai Viet</td><td>ꪧ74ꪘ</td></tr>
+    <tr><td>Tally Marks</td><td>R 𝍸𝍷𝍷 𝍷𝍷𝍷𝍷 n</td></tr>
+    <tr><td>Tamazight (Neo-Tifinagh)</td><td>ⵔ74ⵏ</td></tr>
+    <tr><td>Tamil</td><td>ர்௭௪ந்</td></tr>
+    <tr><td>Telugu</td><td>ర౭౪న</td></tr>
+    <tr><td>Thaana</td><td>ރ74ނ</td></tr>
+    <tr><td>Thai</td><td>ร74น<br>ร๗๔น</td></tr>
+    <tr><td>Tibetan</td><td>ར༧༤ན</td></tr>
+    <tr><td>Toki Pona (nimisin)</td><td>R likujo po n</td></tr>
+    <tr><td>Toki Pona</td><td>kulupu R74n</td></tr>
+    <tr><td>Wolof (Garay)</td><td>𐵞𐵇𐵄𐶁</td></tr>
+    <tr><td>Jejemon / Jejenese</td><td>Rh74nn<br>Rh74n<br>R74nh<br>Rh74nh<br>RR74nh<br>R74nn<br>R74n<br>RR74n</td></tr>
+    <tr><td>English (Pirate)</td><td>aRRRRR74n</td></tr>
+  </tbody>
+  <thead>
+    <tr><th>Code</th><th>Mapping</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Unicode Codepoints</td><td>U+0052 U+0037 U+0034 U+006E<br>U+52 U+37 U+34 U+6E</td></tr>
+    <tr><td>Unicode Codepoints (Escaped)</td><td>\u0052\u0037\u0034\u006E</td></tr>
+    <tr><td>Unicode Codepoints (CSS)</td><td>\0052\0037\0034\006E</td></tr>
+    <tr><td>Unicode Codepoints (HTML)</td><td>&amp;#82;&amp;#55;&amp;#52;&amp;#110;</td></tr>
+    <tr><td>URL Encoding</td><td>%52%37%34%6E</td></tr>
+    <tr><td>Unary</td><td><span class="cw" value="Show">1111111111111111111111111111111111111111111111111111111111111111111111111111111111 1111111111111111111111111111111111111111111111111111111 1111111111111111111111111111111111111111111111111111 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111</span></td></tr>
+    <tr><td>Binary</td><td>01010010001101110011010001101110<br>01010010 00110111 00110100 01101110</td></tr>
+    <tr><td>A1Z26</td><td>18 19 5 22 5 14 6 15 21 18 14</td></tr>
+    <tr><td>Barcode (Code 39)</td><td>▮||▮ | || |▮▮ || ▮|▮ ||▮| ▮</td></tr>
+    <tr><td>Barcode (Code-128)</td><td><img src="image/R74n-Barcode128.gif" class="grayimg"></td></tr>
+    <tr><td>Bookshelf Symbol 7</td><td>ɔ̀Q́Ṕ↘</td></tr>
+    <tr><td>Brainf*ck</td><td>-[---&gt;+&lt;]&gt;---.-[---&gt;++&lt;]&gt;+.---.+++[-&gt;++&lt;]&gt;.</td></tr>
+    <tr><td>Decimal</td><td>82 55 52 110</td></tr>
+    <tr><td>Dutch Spelling Alphabet</td><td>Richard Zeven Vier Nico</td></tr>
+    <tr><td>Flag Semaphore</td><td><img src="image/R74n-Semaphore.png" class="imgtext grayimg"></td></tr>
+    <tr><td>German Spelling Alphabet</td><td>Richard Sieben Vier Nordpol</td></tr>
+    <tr><td>Gray Code</td><td>01111011001011001010111001011001</td></tr>
+    <tr><td>Hexadecimal (NCR)</td><td>&amp;#x52;&amp;#x37;&amp;#x34;&amp;#x6e;</td></tr>
+    <tr><td>Hexadecimal to Color</td><td><span style="color:#000052">R</span><span style="color:#000037">7</span><span style="color:#000034">4</span><span style="color:#00006e">n</span></td></tr>
+    <tr><td>Hexadecimal</td><td>52 37 34 6e</td></tr>
+    <tr><td>ITC Zapf Dingbats</td><td>✲✗✔■</td></tr>
+    <tr><td>LSPK90CW</td><td>A&lt;|¯¯_+Z</td></tr>
+    <tr><td>Malbolge</td><td><small>D'`$@9]!~5X92ywf.@2>=N_:nm7jGX&2$BS!Q,v^)(rqvutsl2pihmlkjihg`&dcb[Z~^]VUTxe</small></td></tr>
+    <tr><td>Maritime Signals</td><td><img src="../pixelflags/png/maritime/r.png" class="pixelart"> <img src="../pixelflags/png/maritime/7.png" class="pixelart"> <img src="../pixelflags/png/maritime/4.png" class="pixelart"> <img src="../pixelflags/png/maritime/n.png" class="pixelart"></td></tr>
+    <tr><td>Marlett</td><td>🗙⭳⏵⬤</td></tr>
+    <tr><td>Morse Code (Emoji)</td><td>😘😍😘 😍😍😘😘😘 😘😘😘😘😍 😍😘</td></tr>
+    <tr><td>Morse Code</td><td>.-. --... ....- -.</td></tr>
+    <tr><td>NATO Phon. Alph. (IPA)</td><td>	ˈroːmi.oˈsɛv(ə)nˈfoʊ.ənoˈvembə</td></tr>
+    <tr><td>NATO Phon. Alph. (Respelling)</td><td>ROW me oh SEV-en FOW-er no VEM ber</td></tr>
+    <tr><td>NATO Phonetic Alphabet</td><td>Romeo Seven Four november</td></tr>
+    <tr><td>Octal</td><td>122 67 64 156</td></tr>
+    <tr><td>QR Code</td><td><img src="image/R74n-QR.gif"></td></tr>
+    <tr><td>Quaternary</td><td>1102 313 310 1232</td></tr>
+    <tr><td>Quinary</td><td>312 210 202 420</td></tr>
+    <tr><td>rMQR</td><td><img src="image/R74n-rMQR.png" width="200"></td></tr>
+    <tr><td>ROT13</td><td>E74a</td></tr>
+    <tr><td>Russian Spelling Alphabet</td><td>Роман Семь Четыре Николай</td></tr>
+    <tr><td>Semacode</td><td><img src="image/R74n-Semacode.gif" class="grayimg"></td></tr>
+    <tr><td>Senary</td><td>214 131 124 302</td></tr>
+    <tr><td>Septenary</td><td>145 106 103 215</td></tr>
+    <tr><td>Standard Galactic Alphabet</td><td>∷74リ<br>∷ VII IV リ</td></tr>
+    <tr><td>Swedish Armed Forces' Spelling Alphabet</td><td>Rudolf Sju Fyra Niklas</td></tr>
+    <tr><td>Tap Code</td><td>.... ..  ... ...</td></tr>
+    <tr><td>Ternary [Balanced]</td><td>111!01!1!1</td></tr>
+    <tr><td>Ternary</td><td>10001 2001 1221 11002</td></tr>
+    <tr><td>Undecimal</td><td>75 50 48 a0</td></tr>
+    <tr><td>Webdings</td><td>🛤⏪︎⏵⬤</td></tr>
+    <tr><td>Wingdings 2</td><td>☑🖷🗔⑤</td></tr>
+    <tr><td>Wingdings 3</td><td>⎋⭍⭬🡘</td></tr>
+    <tr><td>Wingdings</td><td>☼🖮🗐■</td></tr>
+    <tr><td>X-SAMPA</td><td>A"r\ sE"vVn fO"r\ E"n</td></tr>
+  </tbody>
+  <thead>
+    <tr><th>Encryption</th><th>Hash</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Base16</td><td>5237346E</td></tr>
+    <tr><td>Base32</td><td>KI3TI3Q=</td></tr>
+    <tr><td>Base64</td><td>Ujc0bg==</td></tr>
+    <tr><td>Base85</td><td>;E$FM</td></tr>
+    <tr><td>Base65535</td><td>汒𐘴</td></tr>
+    <tr><td>CRC-32</td><td>af428f64</td></tr>
+    <tr><td>MD2</td><td>fb2d96d381cd5f747e4a4a7740bc5e39</td></tr>
+    <tr><td>MD4</td><td>77883492f5b06f83fe9055adcc83f5b4</td></tr>
+    <tr><td>MD5</td><td>e0b9a1612349a0a61fd7b96579346b58</td></tr>
+    <tr><td>RSA512</td><td>Gfummg3dh1ZWGGoOpFhvjeMngOsLSN5hFdyIcgIpwNqyr6+CF+qmoFkpr8FcK/QGxNgtdfJwWlVfHKpah2JSgA==</td></tr>
+    <tr><td>SHA-1</td><td>a2e092dace0a1046fee156fcdc1d70609555be50</td></tr>
+    <tr><td>SHA-224</td><td>e32e7e8d746097b8af945086ace09bd2341a2ef238a6b146f83ef85c</td></tr>
+    <tr><td>SHA-256</td><td>3665e98f9cc28200749080a7bff5b8175b0bb4d4b0fe2e2dda6c084bd8e8e015</td></tr>
+    <tr><td>SHA-384</td><td>966cd678107d3e3de5ccdd729ff7659c3cc764f9efbd00a351c0b87b586d4e3c2c0d4f00ef96d4067ff777617eb05b8b</td></tr>
+    <tr><td>SHA-512</td><td>90612f4a554e2495734485cc35e4038646cfb3a097ce02172d4c718329a6b7e6d4c733b10b1766da22b9e94fe9f39b50b17251a69fad4e11ca86f716ab2fcf4c</td></tr>
+    <tr><td>XXH3</td><td>da1d55c155fe404f</td></tr>
+    <tr><td>XXH32</td><td>dba7105e</td></tr>
+    <tr><td>XXH64</td><td>b22b35a26291f009</td></tr>
+    <tr><td>XXH128</td><td>b91ae11a9e73f757acee53a26f34b316</td></tr>
+  </tbody>
+</table>
+
+<p>R74n.com:</p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English</td><td>R74n.com</td></tr>
+    <tr><td>Braille</td><td>⠗⠼⠛⠼⠙⠝⠲⠉⠕⠍</td></tr>
+  </tbody>
+</table>
+
+<p>Also see R74n in <a href="https://c.r74n.com/fonts/?text=R74n">Unicode fonts</a>, <a href="https://r74n.com/icons/all-ascii-art.txt">ASCII art</a>.</p>
+
+<p>Extra English Info
+<ul>
+  <li>Syllable Count: 5</li>
+  <li>R74n Anagrams: R74n, R7n4, R47n, R4n7, Rn74, Rn47, 7R4n, 7Rn4, 74Rn, 74nR, 7nR4, 7n4R, 4R7n, 4Rn7, 47Rn, 47nR, 4nR7, 4n7R, nR74, nR47, n7R4, n74R, n4R7, n47R</li>
+  <li>Common Prefix: R74-</li>
+</ul></p>
+
+<h2>Sandboxels</h2>
+<p>Translations for <a href="https://sandboxels.R74n.com">Sandboxels</a>.</p>
+<p>There are both transliterations into other scripts and direct translations of the name's origin - <em>Sandbox Pixels</em>. Sometimes, 'squares' or 'boxes' can be used in place of 'pixels'. Sandboxels was originally called <em>Sandbox Game</em> for a short period.</p>
+<p>Abbreviations: SB, SBXLS</p>
+<table>
+  <thead>
+    <tr><th>Script</th>
+      <th>Transliteration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Latin</td><td>Sandboxels</td></tr>
+    <tr><td>IPA</td><td>/ˈsændbɒksəls/</td></tr>
+    <tr><td>Arabic</td><td>ساندبوكسيلس (Sandbuksils)</td></tr>
+    <tr><td>Bengali / Bangla</td><td>স্যান্ডবক্সেল (Syānḍabaksēla)</td></tr>
+    <tr><td>Braille</td><td>⠠⠎⠁⠝⠙⠃⠕⠭⠑⠇⠎</td></tr>
+    <tr><td>Cyrillic</td><td>Сандбохелс (Sandbohels)</td></tr>
+    <tr><td>Devanagari</td><td>सैंडबॉक्सल्स (Saindaboksals)</td></tr>
+    <tr><td>Egyptian Hieroglyphs</td><td>𓋴𓄿𓈖𓂧𓃀𓅱𓇨𓅂𓃭𓋴</td></tr>
+    <tr><td>Gujarati</td><td>સેન્ડબોક્સલ્સ (Sēnḍabōksalsa)</td></tr>
+    <tr><td>Hangul</td><td>샌드박설즈 (Saendeubagseoljeu)</td></tr>
+    <tr><td>Hiragana</td><td>さんどぼっくせるず (Sando bokkuseruzu)</td></tr>
+    <tr><td>Inuktitut</td><td>ᓴᓐᑦᐳᒃᓯᓪᔅ</td></tr>
+    <tr><td>Ithkuil</td><td>esälu'i sanboksels</td></tr>
+    <tr><td>Kannada</td><td>ಸ್ಯಾಂಡ್ಬಾಕ್ಸೆಲ್ಗಳು (Syāṇḍbākselgaḷu)</td></tr>
+    <tr><td>Katakana</td><td>サンドボックセルズ (Sandobōkuseruzu)</td></tr>
+    <tr><td>Latin (Fullwidth)</td><td>Ｓａｎｄｂｏｘｅｌｓ</td></tr>
+    <tr><td>Malayalam</td><td>സാൻഡ്ബോക്സലുകൾ (Sānḍbēāksalukaḷ)</td></tr>
+    <tr><td>Telugu</td><td>శాండ్బాక్సెల్స్ (Śāṇḍbāksels)</td></tr>
+    <tr><td>Thai</td><td>แซนด์บ็อกซ์-พิกเซล (Sænd̒b̆ xks̒-phiksel)</td></tr>
+    <tr><td>Toki Pona</td><td>musi Sanpose</td></tr>
+    <tr><td>Viossa</td><td><span class="cw" value="Spoiler (Click to View)">sanbokspil</span></td></tr>
+  </tbody>
+  <thead>
+    <tr><th>Language</th>
+      <th>Literal Translation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>English / Multilingual</td><td>Sandboxels</td></tr>
+    <tr><td>Armenian</td><td>Ավազատուպիքսել (Avazatupik’sel)</td></tr>
+    <tr><td>Burmese</td><td>သဲပုံစ်ဇယ် (Sell Poneit Jaal)</td></tr>
+    <tr><td>Catalan</td><td>Sorrerels</td></tr>
+    <tr><td>Chinese</td><td>沙盒像素 (Shā hé xiàngsù)</td></tr>
+    <tr><td>Czech</td><td>Pískovištelů</td></tr>
+    <tr><td>Danish</td><td>Sandkaxels</td></tr>
+    <tr><td>Dutch</td><td>zandbaxels</td></tr>
+    <tr><td>Esperanto</td><td>Sablokselo</td></tr>
+    <tr><td>Finnish</td><td>Hiekkalaatikseli</td></tr>
+    <tr><td>French</td><td>Pixels de Bac à Sable</td></tr>
+    <tr><td>German</td><td>Sandkastel</td></tr>
+    <tr><td>Greek</td><td>Αμμοστοιχείο</td></tr>
+    <tr><td>Hebrew</td><td>פיקסלים של ארגז חול (Pikselim Shl Yeragz Hol)</td></tr>
+    <tr><td>Hungarian</td><td>Homoképpontok</td></tr>
+    <tr><td>Icelandic</td><td>Sandkassepunktar</td></tr>
+    <tr><td>Italian</td><td>Sabbionaia</td></tr>
+    <tr><td>Japanese</td><td>砂場要素 (Sunaba yōso)</td></tr>
+    <tr><td>Kazakh</td><td>Құмсалғышель (Qumsalğışel)</td></tr>
+    <tr><td>Latin</td><td>Elementis ex Arcae Harenae</td></tr>
+    <tr><td>Polish</td><td>Piaskowniksel</td></tr>
+    <tr><td>Portuguese</td><td>Pixel de Caixa de Areia</td></tr>
+    <tr><td>Russian</td><td>Песочницель (Pesochnitsel')</td></tr>
+    <tr><td>Sinhala</td><td>සෑන්ඩ්බොක්ස්පික්සල (SǣnḍboksPiksala)</td></tr>
+    <tr><td>Spanish</td><td>Salvadereles</td></tr>
+    <tr><td>Toki Pona</td><td>musi pi poki ko</td></tr>
+  </tbody>
+  <thead>
+    <tr><th>Code</th><th>Mapping</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Leet Speak</td><td>54ND80X315</td></tr>
+    <tr><td>Standard Galactic Alphabet</td><td>ᓭᔑリ↸ʖ𝙹 ̇/ᒷꖎᓭ</td></tr>
+    <tr><td>Wingdings</td><td>💧♋■♎♌□⌧♏●⬧</td></tr>
+    <tr><td>Regional Indicators</td><td>🇸 🇦 🇳 🇩 🇧 🇴 🇽 🇪 🇱 🇸</td></tr>
+    <tr><td>X-SAMPA</td><td>"s{ndbQks@ls</td></tr>
+    <tr><td>Conlang X-SAMPA</td><td>'s&ndbQks@ls</td></tr>
+    <tr><td>Ambigram</td><td><img src="image/Sandboxels-Ambigram.png" class="invert" width="200"></td></tr>
+  </tbody>
+</table>
+<p>Derivatives: Sandboxels Lite (SBLite), Sandboxels Wiki (SBWiki), Sandbloxian(s), Steamboxels</p>
+
+<p>Extra English Info
+<ul>
+  <li>Syllable Count: 3</li>
+</ul></p>
+
+<h2>Copy Paste Dump</h2>
+<p>Translations for <a href="https://c.R74n.com">c.R74n.com</a>.</p>
+<p>The Copy Paste Dump has a <a href="https://c.r74n.com/fonts/">Unicode font generator</a> and many <a href="https://c.r74n.com/convert/">text converters</a>.</p>
+<p>Abbreviation: CPD</p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English</td><td>Copy Paste Dump</td></tr>
+    <tr><td>English (Fullwidth)</td><td>Ｃｏｐｙ　Ｐａｓｔｅ　Ｄｕｍｐ</td></tr>
+    <tr><td>Egyptian Hieroglyphs</td><td>𓎢𓅱𓊪𓇌 𓊪𓄿𓋴𓏏𓅂 𓂧𓅲𓅓𓊪</td></tr>
+    <tr><td>Braille</td><td>⠉⠕⠏⠽ ⠏⠁⠎⠞⠑ ⠙⠥⠍⠏</td></tr>
+    <tr><td>Toki Pona</td><td>lipu Kopipeta</td></tr>
+    <tr><td>Thai</td><td>กองคอปปี้เพสต์</td></tr>
+    <tr><td>Italian</td><td>Scarico del copiare e impastare</td></tr>
+    <tr><td>Finnish</td><td>Kopioi-Liitä Kaatopaikka</td></tr>
+    <tr><td>Chinese (Simplified)</td><td>复制粘贴转储</td></tr>
+  </tbody>
+  <thead>
+    <tr><th>Code</th><th>Mapping</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Leet Speak</td><td>(0P7 P4573 DUMP</td></tr>
+    <tr><td>Standard Galactic Alphabet</td><td>ᓵ𝙹!¡|| !¡ᔑᓭℸ ̣ᒷ ↸⚍ᒲ!¡</td></tr>
+    <tr><td>Wingdings</td><td>👍□◻⍓ 🏱♋⬧⧫♏ 👎◆❍◻</td></tr>
+    <tr><td>Regional Indicators</td><td>🇨 🇴 🇵 🇾   🇵 🇦 🇸 🇹 🇪   🇩 🇺 🇲 🇵</td></tr>
+  </tbody>
+</table>
+
+<p>c.R74n.com:</p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English</td><td>c.R74n.com</td></tr>
+    <tr><td>Braille</td><td>⠉⠲⠗⠼⠛⠼⠙⠝⠲⠉⠕⠍</td></tr>
+  </tbody>
+</table>
+
+<h2>Hello in Every Way</h2>
+<p><a href="../hello/">Hello in Every Way</a> features hundreds of translations of the word 'Hello'.</p>
+<p>Abbreviation: HiEW</p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English</td><td>Hello in Every Way</td></tr>
+    <tr><td>Halacae</td><td>Oo Halacihae</td></tr>
+    <tr><td>Braille</td><td>⠓⠑⠇⠇⠕ ⠊⠝ ⠑⠧⠑⠗⠽ ⠺⠁⠽</td></tr>
+    <tr><td>Egyptian Hieroglyphs</td><td>𓉔𓅂𓃭𓅱 𓇋𓈖 𓅂𓆯𓅂𓂋𓇌 𓅃𓄿𓇌</td></tr>
+    <tr><td>Italian</td><td>Ciao in ogni modo</td></tr>
+    <tr><td>Finnish</td><td>Hei Kaikin Tavoin</td></tr>
+    <tr><td>Chinese (Simplified)</td><td>各种方式打招呼</td></tr>
+    <tr><td>Viossa</td><td><span class="cw" value="Spoiler (Click to View)">jaa ine altropos</span></td></tr>
+  </tbody>
+</table>
+
+<h2>Halacae</h2>
+<p><a href="../halacae/" target="_blank">Halacae</a> is a whole language, complete with a comprehensive <a href="https://docs.google.com/document/d/1mZ2IGrIbfYlUwfuZ53_S0n5O2ne9JUKV0yinIyNwLFU/edit#heading=h.ltsjc46dt9a8" target="_blank">dictionary</a>.</p>
+<p>'Halacae" literally translates to 'good language'.</p>
+<p>Ha (Human) + La (Academic) = Hala (Anthropology)</p>
+<p>Hala + Ca (Consciousness) = Halaca (Language)</p>
+<p>Halaca + -ae (Positive Modifier) = Halacae</p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Halacae / Multilingual</td><td>Halacae</td></tr>
+    <tr><td>English (Literal)</td><td>Good Language</td></tr>
+    <tr><td>Finnish (Literal)</td><td>Hyvä Kieli</td></tr>
+    <tr><td>Braille</td><td>⠓⠁⠇⠁⠉⠁⠑</td></tr>
+    <tr><td>Toki Pona</td><td>toki Alakaje</td></tr>
+    <tr><td>Viossa (Literal)</td><td><span class="cw" value="Spoiler (Click to View)">braglossa</span></td></tr>
+    <tr><td>Viossa</td><td><span class="cw" value="Spoiler (Click to View)">halakajossa</span></td></tr>
+  </tbody>
+</table>
+
+<p>Extra English Info
+<ul>
+  <li>Syllable Count: 3</li>
+</ul></p>
+
+<h2>Explore with Rue</h2>
+<p>Translations for <a href="../rue/">Explore with Rue</a>, mainly the chatbot's name, <em>Rue</em>.</p>
+<p>Rue:</p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Name Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English / Multilingual</td><td>Rue</td></tr>
+    <tr><td>IPA</td><td>ɹuː</td></tr>
+    <tr><td>Arabic</td><td>رو</td></tr>
+    <tr><td>Braille</td><td>⠗⠥⠑</td></tr>
+    <tr><td>Japanese</td><td>ルー</td></tr>
+    <tr><td>Thai</td><td>รื</td></tr>
+    <tr><td>Toki Pona</td><td>jan Lu</td></tr>
+    <tr><td>Shavian</td><td>𐑮𐑵</td></tr>
+    <tr><td>Deseret</td><td>𐑉𐐭</td></tr>
+    <tr><td>X-SAMPA</td><td>"r\u:</td></tr>
+    <tr><td>Conlang X-SAMPA</td><td>'r\u:</td></tr>
+    <tr><td>Ambigram</td><td><img src="image/Rue-Ambigram.png" class="invert" width="200"></td></tr>
+  </tbody>
+</table>
+
+<p>Extra English Info
+<ul>
+  <li>Syllable Count: 1</li>
+</ul></p>
+
+<p>Explore with Rue:</p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Whole Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English</td><td>Explore with Rue</td></tr>
+    <tr><td>Braille</td><td>⠑⠭⠏⠇⠕⠗⠑ ⠺⠊⠞⠓ ⠗⠥⠑</td></tr>
+    <tr><td>Finnish</td><td>Tutkia Ruen Kanssa</td></tr>
+    <tr><td>French</td><td>Explorer avec Rue</td></tr>
+    <tr><td>Halacae</td><td>Hapoo-u a-oo ha Eya</td></tr>
+    <tr><td>Indonesian</td><td>Jelajah dengan Rue</td></tr>
+    <tr><td>Italian</td><td>Esplora con Rue</td></tr>
+  </tbody>
+</table>
+
+<h2>Infinite Chef</h2>
+<p>Translations for <a href="../cook/">Infinite Chef</a>.</p>
+<p>Abbreviations: IC, /cook</p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English</td><td>Infinite Chef</td></tr>
+    <tr><td>Braille</td><td>⠊⠝⠋⠊⠝⠊⠞⠑ ⠉⠓⠑⠋</td></tr>
+    <tr><td>Finnish</td><td>Ääretön Kokki</td></tr>
+    <tr><td>Halacae</td><td>Oo-e Yupaemara</td></tr>
+    <tr><td>Italian</td><td>Chef Infinito</td></tr>
+    <tr><td>Polish</td><td>Nieskończony Kucharz</td></tr>
+    <tr><td>Thai</td><td>เชฟไม่มีจำกัด</td></tr>
+    <tr><td>Toki Pona</td><td>ale jan moku<br>ali jan moku</td></tr>
+    <tr><td>Indonesian</td><td>Koki Abadi</td></tr>
+    <tr><td>Chinese (Simplified)</td><td>无限厨师</td></tr>
+    <tr><td>Viossa</td><td><span class="cw" value="Spoiler (Click to View)">da kunja al</span></td></tr>
+  </tbody>
+</table>
+
+<h2>R74moji</h2>
+<p>Translations for <a href="../moji/">R74moji</a>. <em>(From R74n + emoji)</em></p>
+<p>Abbreviation: moji</p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English</td><td>R74moji</td></tr>
+    <tr><td>Braille</td><td>⠗⠼⠛⠼⠙⠍⠕⠚⠊</td></tr>
+    <tr><td>English (Pirate)</td><td>aRRRRR74moji</td></tr>
+    <tr><td>Hindi</td><td>र७४मोजि</td></tr>
+    <tr><td>Russian</td><td>Р74модзи</td></tr>
+    <tr><td>Toki Pona</td><td>sinpinlili <em>(Little Faces)</em></td></tr>
+    <tr><td>Chinese (Simplified)</td><td>R74n表情符号</td></tr>
+  </tbody>
+</table>
+
+<p>Extra English Info
+<ul>
+  <li>Syllable Count: 5</li>
+</ul></p>
+
+<h2>Unit Converter</h2>
+<p>Translations for <a href="../convert/">Unit Converter</a>.</p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English</td><td>Unit Converter</td></tr>
+    <tr><td>Braille</td><td>⠥⠝⠊⠞ ⠉⠕⠝⠧⠑⠗⠞⠑⠗</td></tr>
+    <tr><td>Finnish</td><td>Yksikkömuunnin</td></tr>
+    <tr><td>Italian</td><td>Convertore di unita</td></tr>
+    <tr><td>Polish</td><td>Przelicznik Jednostek</td></tr>
+    <tr><td>Toki Pona</td><td>ante wan</td></tr>
+    <tr><td>Chinese (Simplified)</td><td>单位转换器</td></tr>
+  </tbody>
+</table>
+
+<h2>Words and Definitions</h2>
+<p>Translations for <a href="../words/">Words and Definitions</a>.</p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English</td><td>Words and Definitions</td></tr>
+    <tr><td>Braille</td><td>⠺⠕⠗⠙⠎ ⠁⠝⠙ ⠙⠑⠋⠊⠝⠊⠞⠊⠕⠝⠎</td></tr>
+    <tr><td>Finnish</td><td>Sanat ja Määritelmät</td></tr>
+    <tr><td>Polish</td><td>Słowa i Definicje</td></tr>
+    <tr><td>Toki Pona</td><td>nimi en kon</td></tr>
+    <tr><td>Indonesian</td><td>Kata dan Definisi</td></tr>
+  </tbody>
+</table>
+
+<h2>UniSearch</h2>
+<p>Translations for <a href="../unisearch/">UniSearch</a>. <em>(From Unicode + search)</em></p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English</td><td>UniSearch</td></tr>
+    <tr><td>Braille</td><td>⠥⠝⠊⠎⠑⠁⠗⠉⠓</td></tr>
+    <tr><td>Toki Pona</td><td>alasa sitelen <em>(Symbol Search)</em></td></tr>
+    <tr><td>Chinese (Simplified)</td><td>Uni搜索</td></tr>
+    <tr><td>Ambigram</td><td><img src="image/UniSearch-Ambigram.png" class="invert" width="200"></td></tr>
+  </tbody>
+</table>
+
+<p>Extra English Info
+<ul>
+  <li>Syllable Count: 3</li>
+</ul></p>
+
+<h2>Mix-Up!</h2>
+<p>Translations for <a href="../mix/">Mix-Up!</a>.</p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English</td><td>Mix-Up!</td></tr>
+    <tr><td>Braille</td><td>⠍⠊⠭⠤⠥⠏⠖</td></tr>
+    <tr><td>Indonesian</td><td>Campur-Aduk!</td></tr>
+    <tr><td>Italian</td><td>Mescolare!</td></tr>
+    <tr><td>Thai</td><td>ผสมผสาน-ไม่หยุด!</td></tr>
+    <tr><td>Toki Pona</td><td>wan-ona!<br>pakala-ijo!</td></tr>
+    <tr><td>Chinese (Simplified)</td><td>混合吧!</td></tr>
+    <tr><td>Viossa</td><td><span class="cw" value="Spoiler (Click to View)">davisk!</span></td></tr>
+  </tbody>
+</table>
+
+<h2>PixelFlags</h2>
+<p>Translations for <a href="../pixelflags/">PixelFlags</a>.</p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English</td><td>PixelFlags</td></tr>
+    <tr><td>Arabic</td><td>بكسلأعلام (BiksilɁaʕlām)</td></tr>
+    <tr><td>Belarusian</td><td>ПіксэльСцягі (Piksel'Scjahí)</td></tr>
+    <tr><td>Braille</td><td>⠏⠊⠭⠑⠇⠋⠇⠁⠛⠎</td></tr>
+    <tr><td>Catalan</td><td>PíxelBanderes</td></tr>
+    <tr><td>Chinese (Simplified)</td><td>像素旗帜</td></tr>
+    <tr><td>Chinese (Traditional)</td><td>像素旗幟</td></tr>
+    <tr><td>Czech</td><td>PixelVlajky</td></tr>
+    <tr><td>Danish</td><td>PixelFlag</td></tr>
+    <tr><td>Dutch</td><td>PixelVlaggen</td></tr>
+    <tr><td>Esperanto</td><td>PikseloFlagoj</td></tr>
+    <tr><td>Finnish</td><td>PikseliLeput</td></tr>
+    <tr><td>French</td><td>PixelDrapeaux</td></tr>
+    <tr><td>German</td><td>PixelFlaggen</td></tr>
+    <tr><td>Greek</td><td>ΕικονοστοιχείοΣημαίες</td></tr>
+    <tr><td>Halacae</td><td>iHalayayi (Little Flags)</td></tr>
+    <tr><td>Hungarian</td><td>KéppontZászlók</td></tr>
+    <tr><td>Icelandic</td><td>DíllFánar</td></tr>
+    <tr><td>Italian</td><td>PixelBandiere<br>BandierePixelate</td></tr>
+    <tr><td>Japanese</td><td>ピクセルフラグ</td></tr>
+    <tr><td>Norwegian (Bokmål)</td><td>PikselFlagga</td></tr>
+    <tr><td>Portuguese</td><td>PixelBandeiras</td></tr>
+    <tr><td>Russian</td><td>ПиксельФлаги (PikselFlagi)</td></tr>
+    <tr><td>Spanish</td><td>PíxelBanderas</td></tr>
+    <tr><td>Swedish</td><td>PixelFlaggor</td></tr>
+    <tr><td>Thai</td><td>ธงพิกเซ็ล</td></tr>
+    <tr><td>Toki Pona</td><td>lenlili (Little Flags)</td></tr>
+    <tr><td>Viossa</td><td><span class="cw" value="Spoiler (Click to View)">čisaiflakka</span><br><span class="cw" value="Spoiler (Click to View)">flakkanen</span></td></tr>
+  </tbody>
+</table>
+
+<h2>Every Ant on Earth</h2>
+<p>Translations for <a href="../ants/">Every Ant on Earth</a>.</p>
+<p>Abbreviations: EAoE</p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English</td><td>Every Ant on Earth</td></tr>
+    <tr><td>Indonesian</td><td>Setiap Semut di Bumi</td></tr>
+    <tr><td>Braille</td><td>⠑⠧⠑⠗⠽ ⠁⠝⠞ ⠕⠝ ⠑⠁⠗⠞⠓</td></tr>
+    <tr><td>Italian</td><td>Ogni singola formica sulla terra</td></tr>
+    <tr><td>Finnish</td><td>Jokainen Muurahainen Maapallolla</td></tr>
+    <tr><td>Chinese (Simplified)</td><td>世界(的)蚂蚁</td></tr>
+  </tbody>
+</table>
+
+<h2>R74n Shapes</h2>
+<p>Translations for <a href="../shapes/">R74n Shapes</a>.</p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English</td><td>R74n Shapes</td></tr>
+    <tr><td>Toki Pona</td><td>kulupu R74n sitelen</td></tr>
+    <tr><td>Braille</td><td>⠗⠼⠛⠼⠙⠝ ⠎⠓⠁⠏⠑⠎</td></tr>
+    <tr><td>Italian</td><td>Forme di R74n</td></tr>
+    <tr><td>Chinese (Simplified)</td><td>R74n形状</td></tr>
+  </tbody>
+</table>
+
+<p>Extra English Info
+<ul>
+  <li>Syllable Count: 6</li>
+</ul></p>
+
+<h2>R74um</h2>
+<p>Translations for the <abbr title="1019686599975505930">#R74um</abbr> channel in the <a href="https://discord.gg/ejUc6YPQuS">Discord</a>.</p>
+<p>Comes from <em>R74n</em> + <em>forum</em>.</p>
+<p>Pronouned <em>Are Seven Forum</em>.</p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English</td><td>R74um</td></tr>
+    <tr><td>Esperanto</td><td>R74umo</td></tr>
+    <tr><td>Finnish</td><td>R74umi</td></tr>
+    <tr><td>Galician</td><td>R74o</td></tr>
+    <tr><td>Georgian</td><td>რზდუმი</td></tr>
+    <tr><td>Greek</td><td>Ρ74ουμ</td></tr>
+    <tr><td>Hindi</td><td>र७४मोरम</td></tr>
+    <tr><td>Ido</td><td>R74umo</td></tr>
+    <tr><td>Italian</td><td>R74o / R74um</td></tr>
+    <tr><td>Korean (Hangul, South)</td><td>ㄹ칠사럼</td></tr>
+    <tr><td>Spanish</td><td>R74o</td></tr>
+    <tr><td>Braille</td><td>⠗⠼⠛⠼⠙⠥⠍</td></tr>
+  </tbody>
+</table>
+
+<p>Extra English Info
+<ul>
+  <li>Syllable Count: 5</li>
+</ul></p>
+
+<h2>Ontomata</h2>
+<p>Translations for the upcoming <a href="../ontomata/">Ontomata</a> project.</p>
+<p>Comes from <em>ontology</em> + <em>automata</em>.</p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English</td><td>Ontomata</td></tr>
+    <tr><td>Braille</td><td>⠕⠝⠞⠕⠍⠁⠞⠁</td></tr>
+    <tr><td>Czech</td><td>Ontomaty</td></tr>
+    <tr><td>Dutch</td><td>Ontomaten</td></tr>
+    <tr><td>Finnish</td><td>Ontomaatit</td></tr>
+    <tr><td>French</td><td>Ontomates</td></tr>
+    <tr><td>German</td><td>Ontomaten</td></tr>
+    <tr><td>Hungarian</td><td>Ontomaták</td></tr>
+    <tr><td>Italian</td><td>Ontomi</td></tr>
+    <tr><td>Japanese</td><td>オントマター</td></tr>
+    <tr><td>Korean</td><td>언도마다</td></tr>
+    <tr><td>Latin</td><td>Ontomata</td></tr>
+    <tr><td>Macedonian</td><td>Oнтомати </td></tr>
+    <tr><td>Polish</td><td>Ontomaty</td></tr>
+    <tr><td>Portuguese</td><td>Ontomatos</td></tr>
+    <tr><td>Romanian (Masculine)</td><td>Ontomați</td></tr>
+    <tr><td>Russian</td><td>Oнтоматы</td></tr>
+    <tr><td>Serbo-Croatian (Cyrillic)</td><td>Oнтомати </td></tr>
+    <tr><td>Serbo-Croatian (Latin)</td><td>Ontomati</td></tr>
+    <tr><td>Spanish</td><td>Ontomatas</td></tr>
+    <tr><td>Swedish</td><td>Ontomater</td></tr>
+    <tr><td>Thai</td><td>ออนโทมาตา</td></tr>
+    <tr><td>Toki Pona</td><td>ilo Ontomata</td></tr>
+    <tr><td>Ukrainian</td><td>Oнтомати </td></tr>
+    <tr><td>Yiddish</td><td>אָנטאָמאַטן</td></tr>
+  </tbody>
+</table>
+
+<p>Extra English Info
+<ul>
+  <li>Syllable Count: 4</li>
+</ul></p>
+
+<!--
+<h2>NAME</h2>
+<p>Translations for <a href="../LINK/">PROJECTLINK</a>.</p>
+<table>
+  <thead>
+    <tr><th>Language</th><th>Translation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>English</td><td>NAME</td></tr>
+    <tr><td>LANGUAGE</td><td>NAME</td></tr>
+  </tbody>
+</table>
+-->
+
+<h2>Extra Phrases</h2>
+<p>Below are some more titles and phrases you could translate and submit!</p>
+<ul>
+  <li>Share Buttons</li>
+  <li>R74n Discord</li>
+  <li>R74n Guestbook</li>
+  <li>R74n Commons</li>
+  <li>Universal Feedback System (UFBS)</li>
+  <li>R74n Wikibase <em>(From wiki + database)</em></li>
+  <li><a href="../icons/#Languages">R74n Logo</a></li>
+  <li>Home (Non-standard languages only)</li>
+  <li>Search (Non-standard languages only)</li>
+  <li>Social (Non-standard languages only)</li>
+  <li>Types of Octopi (Also translate items on the <a href="../octopi">list</a>)</li>
+  <li>Sandboxels Wiki</li>
+  <li>.SBXLS (Sandboxels Save File)</li>
+  <li>Social Media Lists</li>
+  <li>R74n Lore</li>
+</ul>
+<p>You aren't limited to these options! Have fun and translate anything related to R74n in any way.</p>
+
+
+
+</div>
+
+
+<!-- i like having this but ublock blocks these things anyway -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93720349-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-93720349-6');
+</script>
+
+</body>
+</html>

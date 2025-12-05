@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en" class="notranslate" translate="no">
+<head>
+    <meta charset="utf-8">
+<!--
+⢠⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣄⣀⣀⠄⠄⠄⠄⠄⠄⠄⠄⣀⣀⣀⣀⣀⣀⣀⡀
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣆⡀⠄⠄⠄⠄⠿⠿⠿⠿⢿⣿⣿⠇
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠄⠄⠄⠄⠄⠄⠄⣠⣿⡿⠁⠄
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠈⠹⣿⣿⣿⣿⣧⠄⠄⠄⠄⠄⣰⣿⡿⠁⠄⠄
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠄⠄⣿⣿⣿⣿⣿⠄⠄⠄⠄⢀⣿⣿⠇⠄⠄⠄
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠄⢀⣿⣿⣿⣿⡟⠄⠄⠄⠄⠘⠛⠛⢀⣀⣀⠄
+⢸⣿⣿⣿⣿⣤⣤⣤⣤⣤⣤⣤⣶⣾⣿⣿⣿⡿⠄⠄⠄⠄⠄⠄⢀⣴⣿⣿⣿⠄
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⠄⠄⠄⠄⠄⠄⣠⣿⠟⢹⣿⣿⠄
+⢸⣿⣿⣿⣿⠿⠿⠿⣿⣿⣿⣿⣯⣍⠁⠄⠄⠄⠄⠄⠄⢀⣾⣿⣉⣀⣸⣿⣿⣀
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠙⢿⣿⣿⣿⣷⣄⠄⠄⠄⠄⠄⠸⠿⠿⠿⠿⢿⣿⣿⠿
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠈⣿⣿⣿⣿⣿⣆⠄⠄⠄⠄⠄⠄⠄⠄⠄⠸⠿⠿⠄
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠈⢿⣿⣿⣿⣿⣇⠄⠄⠄⠄⣿⣿⣧⣾⣿⣿⣷⡀
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠈⢻⣿⣿⣿⣿⣦⠄⠄⠄⣿⣿⡏⠄⢸⣿⣿⡇
+⢸⣿⣿⣿⣿⠄⠄⠄⠄⠄⠄⠄⠄⠄⢿⣿⣿⣿⣿⣆⠄⠄⣿⣿⡇⠄⢸⣿⣿⡇
+⠘⠛⠛⠛⠛⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠛⠛⠛⠛⠛⠃⠄⠛⠛⠃⠄⠘⠛⠛⠃
+This HTML and its contents are property of R74n.com.
+-->
+    <meta name="description" content="Explore with Rue while saving your conversations and boosting productivity.">
+    <meta name="keywords" content="R74n, R47n">
+    <meta name="author" content="R74n">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="twitter:image:alt" content="R74n">
+    <meta name="twitter:image" content="https://R74n.com/rue/ruemoji.png">
+    <title>Rue Chat - R74n</title>
+    <script type="application/ld+json">{"@context" : "http://schema.org","@type" : "Organization","name" : "R74n","url" : "https://r74n.com","sameAs" : ["https://twitter.com/R74nCom","https://twitter.com/CopyPasteDump","https://www.youtube.com/channel/UCzS6ufDfiDxbHVL001GwFeA"], "logo":"https://r74n.com/icons/favicon.png", "email":"contact@r74n.com"}</script>
+    <link rel="stylesheet" type="text/css" href="../normalize.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" id="rueFavicon">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="chat-manifest.json">
+    <link rel="mask-icon" href="https://R74n.com/icons/safari-pinned-tab.svg?v=R74n-2" color="#1cd2d2">
+    <link rel="shortcut icon" href="https://R74n.com/rue/favicon.ico?v=R74n-2">
+    <meta name="msapplication-TileColor" content="#161a16">
+    <meta name="theme-color" content="#2a2e2a">
+    <meta name="msapplication-config" content="https://R74n.com/icons/browserconfig.xml?v=R74n-2">
+
+    <script src="https://R74n.com/load.js"></script>
+
+    <meta name="google" content="notranslate" />
+    <script>
+      function clearChat() {
+        var rueChatBox = document.querySelector("#rueChatBox");
+        rueChatBox.innerHTML = "";
+      }
+      function createChatMessage(message,sent,color,loading) {
+        var rueChatBox = document.querySelector("#rueChatBox");
+        var rueMessageRow = document.createElement("div");
+        // if its a response, add the image
+        if (!sent) {
+          var rueMessageMoji = document.createElement("img");
+          rueMessageMoji.src = Rue.brain.ruemoji || "ruemoji.png";
+          rueMessageMoji.classList.add("rueMessageMoji");
+          rueMessageMoji.onclick = function(){
+            document.getElementById("rueButton").click();
+          }
+          rueMessageRow.appendChild(rueMessageMoji);
+        }
+        rueMessageRow.classList.add("rueMessageRow");
+        if (sent) {
+          rueMessageRow.classList.add("sent");
+        } else {
+          rueMessageRow.classList.add("response");
+        }
+        var rueMessage = document.createElement("div");
+        rueMessage.classList.add("rueMessage");
+        if (!loading) {
+          var messageObj = {
+            u: sent ? 1 : 0,
+            t: message
+          }
+        }
+        if (sent) {
+          rueMessage.classList.add("sent");
+          rueMessage.innerText = message;
+        } else {
+          rueMessage.classList.add("response");
+          rueMessage.innerHTML = message;
+          if (color) {
+            rueMessage.style.borderColor = color;
+          }
+          else if (!loading && typeof rueMessageBox !== "undefined") {
+            if (rueMessageBox.style.borderColor !== "white" && rueMessageBox.style.borderColor !== 'rgb(182, 182, 182)') {
+              rueMessage.style.borderColor = rueMessageBox.style.borderColor;
+              messageObj.c = rueMessageBox.style.borderColor;
+            }
+          }
+        }
+        if (currentSession && !loading) {
+          currentSession.messages.push(messageObj);
+          if (!sent && !Rue.brain.auto) saveSession();
+        }
+        rueMessageRow.appendChild(rueMessage);
+        rueChatBox.appendChild(rueMessageRow);
+        // scroll to the bottom
+        rueChatBox.scrollTop = rueChatBox.scrollHeight;
+        return rueMessage;
+      }
+      function rueOnSay(rueMessageBox) {
+        createChatMessage(rueMessageBox.innerHTML);
+        document.querySelector("#rueInput").value = "";
+      }
+      lastMessage = "";
+      lastConfirm = null;
+      function rueOnSend(message) {
+        createChatMessage(message||lastMessage||"...",true);
+        if (message) lastMessage = message;
+        else if (lastMessage) {
+          document.getElementById("rueInput").value = lastMessage;
+          return lastMessage;
+        }
+      }
+
+      currentSession = null;
+      months = {
+        0: "Jan",1: "Feb",2: "Mar",3: "Apr",4: "May",5: "Jun",6: "Jul",7:"Aug",8:"Sep",9:"Oct",10:"Nov",11:"Dec"
+      }
+      sessionIndex = JSON.parse(localStorage.getItem("RueChatSessionIndex")||"{}");
+      localStorageFull = false;
+
+      function saveSession() {
+        if (!currentSession) return;
+        if (currentSession.messages.length <= 1) return;
+        try {
+          localStorage.setItem("RueChatSession-"+currentSession.timestamp,JSON.stringify(currentSession));
+          if (!sessionIndex[currentSession.timestamp] || sessionIndex[currentSession.timestamp] !== currentSession.name) {
+            sessionIndex[currentSession.timestamp] = currentSession.name;
+            localStorage.setItem("RueChatSessionIndex",JSON.stringify(sessionIndex));
+            createSessionButton(currentSession.timestamp);
+          }
+        }
+        catch (e) {
+          if (!localStorageFull) {
+            alert("Error saving. Your Local Storage might be full! Please delete sessions to regain space. Sessions may not be stored until then.");
+            localStorageFull = true;
+          }
+          console.log("ERROR: "+e)
+        }
+        var btn = document.getElementById("sessionButton-"+currentSession.timestamp);
+        if (btn && btn.previousSibling !== null) {
+          delete sessionIndex[currentSession.timestamp];
+          sessionIndex[currentSession.timestamp] = currentSession.name;
+          localStorage.setItem("RueChatSessionIndex",JSON.stringify(sessionIndex));
+          sessionList.insertBefore(btn, sessionList.firstChild);
+        }
+      }
+      function loadSession(id) {
+        currentSession = JSON.parse(localStorage.getItem("RueChatSession-"+id));
+        clearChat();
+        currentSession.messages.forEach(message => {
+          createChatMessage(message.t, message.u, message.c, true)
+        });
+        setTimeout(()=>{
+          var chatBox = document.getElementById("rueChatBox");
+          chatBox.scrollTop = chatBox.scrollHeight;
+        },100)
+        document.querySelectorAll('.sessionButton[selected="true"]').forEach((e)=>{
+          e.removeAttribute("selected");
+        })
+        var btn = document.getElementById("sessionButton-"+id);
+        if (btn) {
+          btn.setAttribute("selected","true");
+        }
+        closeSidebar();
+        try {Rue.focus();}
+        catch {}
+      }
+      function newSession() {
+        document.querySelectorAll('.sessionButton[selected="true"]').forEach((e)=>{
+          e.removeAttribute("selected");
+        })
+        clearChat();
+        var date = new Date();
+        currentSession = {
+          timestamp: date.getTime(),
+          name: `${months[date.getMonth()]} ${date.getDate()} ${date.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" })}`,
+          messages: [/*
+            {
+              u: 0 (Rue) or 1 (User)
+              t: text
+              c: rueMessage.style.borderColor, if not "white"
+            }
+          */]
+        }
+        closeSidebar();
+        Rue.say("{{r:[chatintro]}}");
+        currentSession.messages = [];
+        try {Rue.focus();}
+        catch {}
+      }
+      function createSessionButton(id) {
+        var btn = document.getElementById("sessionButton-"+id);
+        if (btn) {
+          btn.remove();
+        }
+//         sessionList.insertAdjacentHTML("afterbegin",
+// `<div class="sessionButton" uuid="${id}" id="sessionButton-${id}" onclick="loadSession('${id}')">
+//   <span class="sessionName">${sessionIndex[id]}</span>
+//   <span class="sessionControls"><span onclick="renameSession('${id}')">Rename</span> • <span onclick="deleteSession('${id}')">Delete</span></span>
+// </div>`)
+        var sessionButton = document.createElement("div");
+        sessionButton.className = "sessionButton";
+        sessionButton.setAttribute("uuid",id);
+        sessionButton.id = "sessionButton-"+id;
+        sessionButton.onclick = function(){loadSession(this.getAttribute("uuid"))}
+        var sessionName = document.createElement("span");
+        sessionName.innerText = sessionIndex[id];
+        sessionName.className = "sessionName";
+        if (currentSession && id.toString() === currentSession.timestamp.toString()) {
+          sessionButton.setAttribute("selected","true");
+        }
+        var sessionControls = document.createElement("span");
+        // sessionControls.innerHTML = `<span onclick="renameSession('${id}')">Rename</span> • <span onclick="deleteSession('${id}')">Delete</span>`
+        sessionControls.className = "sessionControls";
+        // sessionControls.onclick = (e)=>{e.stopPropagation()}
+        var sessionRename = document.createElement("span");
+        sessionRename.innerText = "Rename";
+        sessionRename.onclick = function(e){renameSession(this.parentElement.parentElement.getAttribute("uuid")); e.stopPropagation()}
+        sessionControls.appendChild(sessionRename);
+        sessionControls.insertAdjacentText("beforeend"," • ")
+        var sessionDelete = document.createElement("span");
+        sessionDelete.innerText = "Delete";
+        sessionDelete.onclick = function(e){deleteSession(this.parentElement.parentElement.getAttribute("uuid")); e.stopPropagation()}
+        sessionControls.appendChild(sessionDelete);
+        sessionButton.appendChild(sessionName);
+        sessionButton.appendChild(sessionControls);
+        sessionList.insertBefore(sessionButton, sessionList.firstChild);
+      }
+      function deleteSession(id) {
+        if (confirm("Are you sure you want to delete this session ("+sessionIndex[id]+") forever? This cannot be undone.")) {
+          delete sessionIndex[id];
+          document.getElementById("sessionButton-"+id).remove();
+          localStorage.removeItem("RueChatSession-"+id);
+          localStorage.setItem("RueChatSessionIndex",JSON.stringify(sessionIndex));
+          if (id.toString() === currentSession.timestamp.toString()) {
+            newSession();
+          }
+        }
+      }
+      function selectElementContents(el) {
+        var range = document.createRange();
+        range.selectNodeContents(el);
+        var sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+      }
+      function renameSession(id) {
+        // var newName = prompt("Name?");
+        var btn = document.getElementById("sessionButton-"+id);
+        var nameSpan = btn.querySelector(".sessionName");
+        nameSpan.contentEditable = true;
+        nameSpan.onblur = function() {
+          this.contentEditable = false;
+          var id = this.parentElement.getAttribute("uuid");
+          var newName = this.innerText;
+          sessionIndex[id] = newName;
+          var temp = JSON.parse(localStorage.getItem("RueChatSession-"+id));
+          temp.name = newName;
+          localStorage.setItem("RueChatSession-"+id,JSON.stringify(temp));
+          localStorage.setItem("RueChatSessionIndex",JSON.stringify(sessionIndex));
+          this.onblur = undefined;
+        }
+        nameSpan.onkeydown = function(e) {
+          if (e.keyCode === 13) {
+            this.blur();
+            e.preventDefault();
+            e.stopPropagation();
+            return false;
+          }
+        }
+        nameSpan.focus();
+        selectElementContents(nameSpan);
+      }
+
+    </script>
+
+    <script src="rue.js"></script>
+
+    <script>
+      function blinkFavicon() {
+        var link = document.querySelector("#rueFavicon");
+        if (!link) {
+            link = document.createElement('link');
+            link.rel = 'icon';
+            document.head.appendChild(link);
+        }
+        link.href = 'favicon-blink.ico';
+        setTimeout(function() {
+            link.href = 'favicon.ico';
+            setTimeout(blinkFavicon, Math.random() * 1500 + 500);
+        }, 200);
+      }
+      blinkFavicon();
+    </script>
+
+    <style>
+      html, body {
+        overflow: hidden
+      }
+      .content {
+        margin: 0;
+        overflow: auto;
+      }
+      #rueChatContainer {
+        background-color: hsl(120, 8%, 9%);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        max-height: 100%;
+        scroll-behavior: smooth;
+      }
+      #rueSidebar {
+        width: 15%;
+        background-color: #2a2e2a;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        overflow-y:scroll;
+        max-height: 100%;
+      }
+      #underSidebar {
+        color: hsl(120, 7%, 70%);
+      }
+      #underSidebar a {
+        filter: grayscale(75%);
+      }
+      #rueMobileBar {
+        background-color: #2a2e2a;
+        width: 100%;
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        height: 3em;
+      }
+      #rueMobileBar span, #openMenu {
+        margin-left: 10px;
+      }
+      .menuIcon {
+        cursor: pointer;
+      }
+      .menuIcon div {
+        width: 35px;
+        height: 5px;
+        background-color: #ffffff;
+        margin: 6px 0;
+      }
+      #closeMenu {
+        position: absolute;
+        top: 0.75em;
+        right: 1em;
+        display: none;
+      }
+      #rueMain {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        max-height: 100%;
+      }
+      #rueChatBox {
+        background-color: #161a16;
+        color: #fff;
+        padding: 1em;
+        height: 90%;
+        overflow-y: scroll;
+        overflow-x: auto;
+        resize: horizontal;
+      }
+      #rueInputContainer {
+        display: flex;
+        flex-direction: row;
+        /* background-color: #282b28; */
+        background-color: hsl(120, 7%, 30%);
+      }
+      #rueContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #rueBoxIn {
+        background: none!important;
+      }
+      #rueMessageBox {
+        display: none!important;
+      }
+      .rueMessageRow {
+        display: flex;
+        justify-content: flex-end;
+      }
+      .rueMessageRow.sent {
+        justify-content: flex-end;
+      }
+      .rueMessageRow.response {
+        justify-content: flex-start;
+      }
+      .rueMessage {
+        background-color: #282b28;
+        max-width: 40%;
+        padding: 1em;
+        margin: 0.5em;
+        border-radius: 1em;
+        border: 4px solid;
+        word-wrap: break-word;
+      }
+      .rueMessage.response {
+        border-color: #1dd31d;
+        border-bottom-left-radius: 0;
+      }
+      .rueMessage.sent {
+        border-color: #1cd2d2;
+        border-bottom-right-radius: 0;
+      }
+      .rueMessageMoji {
+        width: 2em;
+        height: 2em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-top: 1.5em;
+      }
+      a { color: #00ff00 }
+      a:visited { color: #00ff00 }
+      a:hover { color: #82ff82 }
+      a:hover:active, a:active { color: #bbffbb }
+
+      @media only screen and (min-width: 600px) {
+        #rueBox {
+          width: 50%;
+        }
+        #rueBoxIn { margin-left: auto!important; margin-right: auto!important; text-align: center!important; }
+        #rueInput { width: 75%!important;padding-left: 4%!important;padding-right: 0!important; }
+        #rueButton { width: 22%!important;padding-left: 0!important;padding-right: 0!important; }
+        #rueSidebar {
+          display: flex!important;
+        }
+        #rueMain {
+          display: flex!important;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        #rueChatContainer {
+          height: 100dvh
+        }
+        #rueSidebar {
+          display: none;
+          width: 100%;
+          max-width: 100%;
+        }
+        #rueMain {
+          display: flex;
+          width: 100%;
+          max-width: 100%;
+          overflow-x: hidden;
+          overflow-y: hidden;
+          flex-direction: column;
+          max-height: 100dvh;
+          height: 100dvh;
+        }
+        .rueMessage {
+          max-width: 100%;
+          overflow-wrap: anywhere;
+        }
+        .rueMessage.response {
+          margin-left: 0.1em;
+        }
+        #rueChatBox {
+          padding-left: 0.1em;
+          padding-right: 0.1em;
+          max-width: 100%;
+          overflow-x: hidden;
+          overflow-y: scroll;
+          flex-shrink: 1;
+          resize:none;
+        }
+        #rueMobileBar {
+          display: flex;
+          padding-top: env(safe-area-inset-top,0px);
+        }
+        #closeMenu {
+          display:block;
+        }
+        #rueInputContainer {
+          width: 100%;
+          padding-bottom: env(safe-area-inset-bottom,0px);
+        }
+        #backPageButton {
+          display: none
+        }
+      }
+
+      #newSessionButton {
+        margin-top:1em;
+        margin-bottom:1em;
+        background-color: hsl(120, 7%, 30%);
+      }
+      .sessionButton::after {
+        content: "";
+        display:block;
+        height: 2px;
+        width: 100%;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        background-color: hsl(120, 7%, 30%);
+      }
+      .sessionButton[selected="true"] .sessionName {
+        color: yellow;
+      }
+      .sessionName, .sessionControls {
+        display: block;
+      }
+      .sessionName {
+        cursor: pointer;
+        text-align: left;
+      }
+      .sessionControls {
+        font-size: medium;
+        color: hsl(120, 7%, 70%);
+        text-align: right;
+      }
+      .sessionControls span {
+        cursor: pointer;
+      }
+
+      /* No Select */
+      #rueChatTitle, #rueSidebar, .rueMessageMoji, #rueMobileBar {
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+      }
+      /* Yes Select */
+      .sessionName {
+        -webkit-user-select: text; /* Safari */
+        -ms-user-select: unset; /* IE 10 and IE 11 */
+        user-select: text; /* Standard syntax */
+      }
+      ::-moz-selection { /* Code for Firefox */
+        background: yellow;
+      }
+      ::selection {
+        background: yellow;
+      }
+      
+    </style>
+</head>
+<body>
+
+
+<!-- <a href="https://R74n.com" class="backbutton">⦉</a>
+<h1 class="pagetitle">Rue Chat</h1> -->
+<div class="content">
+
+
+<div id="rueChatContainer">
+  <div id="rueSidebar">
+    <div id="closeMenu" class="menuIcon">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <span id="rueChatTitle"><a href="https://R74n.com/" id="backPageButton">←</a> Rue Chat</span>
+    <input type="button" value="New Session..." id="newSessionButton" onclick="newSession()">
+    <div id="sessionList"></div>
+    <div id="underSidebar">
+      <a href="../privacy">Privacy</a> • <a href="docs">Docs</a>
+    </div>
+  </div>
+  <div id="rueMain">
+    <div id="rueMobileBar">
+      <div id="openMenu" class="menuIcon">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <span id="rueChatMobileTitle">Rue Chat</span>
+    </div>
+    <div id="rueChatBox"></div>
+    <div id="rueInputContainer">
+      <div id="rueContainer" style="text-align:center;width:100%">
+        <div id="rueBox" style="height:66px" class="rueWideScreen"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  #rueBoxIn {
+    top: unset!important;
+    transform: none!important;
+    padding: 0!important;
+    display: flex!important;
+  }
+  #rueBox {
+    height: auto!important;
+    padding: 0!important;
+    width: 100%!important;
+    top: 0 !important;
+  }
+  #rueInput, #rueButton {
+    border-radius: 0px!important;
+  }
+  #rueInput {
+    background-color: hsl(120, 7%, 30%) !important;
+    padding: 20px!important;
+  }
+  #rueButton {
+    background-color: hsl(120, 7%, 40%) !important;
+    height: auto!important;
+  }
+  #rueButton:hover {
+      background-color: hsl(120, 7%, 40%) !important;
+  }
+  @media only screen and (min-width: 600px) {
+    #rueBox.rueWideScreen {
+        width: 100% !important;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    #rueButton {
+        width: 25% !important;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #rueBoxIn {
+        width: 100% !important;
+    }
+  }
+</style>
+
+<script>
+  sessionList = document.getElementById("sessionList");
+  var temp = Object.keys(sessionIndex);
+  temp.forEach(id => {
+    createSessionButton(id)
+  });
+
+  function download(filename, text, type="text/plain") {
+    var element = document.createElement('a');
+    element.setAttribute('href', 'data:'+type+';charset=utf-8,' + encodeURIComponent(text));
+    element.setAttribute('download', filename);
+    element.style.display = 'none';
+    document.body.appendChild(element);
+    element.click();
+    document.body.removeChild(element);
+  }
+  function txtSession() {
+    var lines = [];
+    currentSession.messages.forEach((message) => {
+      lines.push((message.u ? "You: " : "Rue: ") +  message.t);
+    })
+    return lines.join("\n\n\n");
+  }
+
+  window.addEventListener("load",function(){
+    if (urlParams.has("rue")) {
+      newSession();
+    }
+    else if (temp.length) {
+      loadSession(temp[temp.length-1]);
+    }
+    else {
+      newSession();
+    }
+    Rue.addRueData({
+      "commands": {
+        "export session": function(){
+          Rue.say("Downloading..");
+          download("RueChatSession-"+currentSession.timestamp+"-"+(new Date()).getTime(), JSON.stringify(currentSession), "application/json");
+        },
+        "export chat": "=export session",
+        "download session": "=export session",
+        "download chat": "=export session",
+        "backup session": "=export session",
+        "backup chat": "=export session",
+
+        "print session": function(){
+          Rue.say("Printing..");
+          var mywindow = window.open('', 'PRINT', 'height=400,width=600');
+
+          mywindow.document.write('<html><head><title>' + document.title  + '</title>');
+          mywindow.document.write('</head><body >');
+          mywindow.document.write('<h1>' + document.title  + '</h1>');
+          mywindow.document.write(txtSession().replace(/\n/g,"<br>\n"))
+          mywindow.document.write('</body></html>');
+
+          mywindow.document.close(); // necessary for IE >= 10
+          mywindow.focus(); // necessary for IE >= 10*/
+
+          mywindow.print();
+          mywindow.close();
+        },
+        "print chat": "=print session",
+        "print pdf": "=print session",
+        "export pdf": "=print session",
+        "download pdf": "=print session",
+        "backup pdf": "=print session",
+
+        "export txt": function() {
+          Rue.say("Downloading..");
+          download("RueChatSession-"+currentSession.timestamp+"-"+(new Date()).getTime(), txtSession(), "text/plain");
+        },
+        "download txt": "=export txt",
+        "backup txt": "=export txt",
+
+        "copy session": function() {
+          Rue.say("See you on the other side!!");
+          var temp = currentSession;
+          newSession();
+          currentSession.messages = temp.messages.slice();
+          currentSession.name = temp.name+" copy";
+          saveSession();
+          loadSession(currentSession.timestamp);
+          Rue.say("You're now in a copied session!");
+        },
+        "copy chat": "=copy session"
+      },
+      "responses": {
+        "save session": "Your sessions here are saved automatically! To download a backup, say \"export session\".",
+        "save chat": "=save session",
+        "save this chat": "=save session",
+        "save the chat": "=save session",
+        "save our chat": "=save session",
+        "load session": "To load a previous session, press its name in the sidebar menu!",
+        "load chat": "=load session",
+        "edit session": "To modify a session, use the controls under its name in the sidebar menu!",
+        "edit chat": "=edit chat",
+        "rename session": "=edit chat",
+        "rename chat": "=edit chat",
+        "delete session": "=edit chat",
+        "delete chat": "=edit chat",
+        "remove session": "=edit chat",
+        "remove chat": "=edit chat",
+        "backup": "To make a backup of your Rue Chat session, say \"export session\".",
+        "back up": "=backup",
+        "export": "=backup",
+        "download": "=backup",
+        "chat": "You're here! {{i:Rue Chat}} allows you to speak to me, {{link:https://r74n.com/rue|Rue}}, while saving your sessions! Learn everything I can do in the {{link:https://r74n.com/rue/docs|Guidebook}}.",
+        "rue chat": "=chat",
+        "ruechat": "=chat"
+      }
+    })
+    oldChatBoxWidth = document.getElementById("rueChatBox").clientWidth;
+    document.getElementById("rueChatBox").addEventListener("mousedown",function(){
+      oldChatBoxWidth = this.clientWidth;
+    })
+    document.getElementById("rueChatBox").addEventListener("mousemove",function(){
+      if (oldChatBoxWidth !== this.clientWidth) {
+        this.scrollTop = this.scrollHeight;
+        oldChatBoxWidth = this.clientWidth;
+      }
+    })
+    Rue.focus();
+    if (urlParams.has("rue")) {
+      Rue.handleRueParam();
+    }
+  })
+  function openSidebar() {
+    document.getElementById("rueSidebar").style.display = "flex";
+    document.getElementById("rueMain").style.display = "none";
+  }
+  function closeSidebar() {
+    document.getElementById("rueSidebar").style.display = "none";
+    document.getElementById("rueMain").style.display = "flex";
+  }
+  document.getElementById("openMenu").onclick = openSidebar;
+  document.getElementById("closeMenu").onclick = closeSidebar;
+  window.addEventListener("resize", function(){
+    var chat = document.getElementById("rueChatContainer");
+    chat.style.height = window.visualViewport.height + "px";
+    document.getElementById("rueInput").addEventListener("focus", () => {
+      var chat = document.getElementById("rueChatContainer");
+      chat.style.height = window.visualViewport.height + "px";
+    });
+  });
+</script>
+
+
+
+
+
+</div>
+
+
+<!-- i like having this but ublock blocks these things anyway -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93720349-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-93720349-6');
+</script>
+
+</body>
+</html>
